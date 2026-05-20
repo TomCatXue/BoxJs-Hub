@@ -50,7 +50,7 @@
     "author": "fmz200",
     "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
     "description": "致敬开源精神，净化网络环境。包含大量签到脚本、去广告规则、Cookie获取合集等综合工具箱。",
-    "category": "综合工具箱",
+    "category": "日常工具",
     "tags": [
       "签到",
       "去广告",
@@ -65,7 +65,7 @@
     "author": "Chavy",
     "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
     "description": "BoxJS 核心环境库，提供 HttpClient、持久化数据等强大功能，是众多脚本的基石。",
-    "category": "基础环境",
+    "category": "日常工具",
     "tags": [
       "Env.js",
       "基础库",
@@ -80,7 +80,7 @@
     "author": "BlackMatrix",
     "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
     "description": "各平台的分流规则、复写规则及自动化脚本，包含什么值得买、百度贴吧、叮咚买菜等签到脚本。",
-    "category": "规则脚本",
+    "category": "科学上网",
     "tags": [
       "分流规则",
       "复写规则",
@@ -155,7 +155,7 @@
     "author": "BlackMatrix",
     "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
     "description": "AppleStore 商品库存监控脚本，支持多地区、多商品监控与通知提醒。",
-    "category": "监控提醒",
+    "category": "日常工具",
     "tags": [
       "Apple",
       "库存监控",
@@ -185,7 +185,7 @@
     "author": "fmz200",
     "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
     "description": "fmz200羊毛脚本任务订阅，包含大量签到、领券、做任务等自动化脚本。",
-    "category": "任务自动化",
+    "category": "签到挂机",
     "tags": [
       "任务",
       "羊毛",
@@ -200,7 +200,7 @@
     "author": "fmz200",
     "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
     "description": "包含fmz200/NobyDa/chavyleung/Sunert等多作者Cookie和Token获取脚本合集。",
-    "category": "工具辅助",
+    "category": "日常工具",
     "tags": [
       "Cookie",
       "Token",
@@ -230,7 +230,7 @@
     "author": "fmz200",
     "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
     "description": "汇集常用的AI模型分流规则，支持ChatGPT、Claude、Gemini等主流AI服务。",
-    "category": "网络优化",
+    "category": "科学上网",
     "tags": [
       "AI",
       "分流规则",
@@ -245,7 +245,7 @@
     "author": "fmz200",
     "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
     "description": "包含APP、机场、LPL等大量图标资源，用于BoxJS面板图标展示。",
-    "category": "资源素材",
+    "category": "日常工具",
     "tags": [
       "图标",
       "素材",
@@ -290,7 +290,7 @@
     "author": "@BiliUniverse",
     "icon": "https://avatars.githubusercontent.com/u/129515498?s=200&v=4",
     "description": "哔哩哔哩中国版流媒体平台功能增强系列，包含首页/分区/我的页面自定义、CDN分流、去广告等功能。",
-    "category": "流媒体增强",
+    "category": "影视音影",
     "tags": [
       "哔哩哔哩",
       "去广告",
@@ -306,7 +306,7 @@
     "author": "ChinaMobileDev",
     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/8b/03/928b0371-20fc-288b-e4e4-05f48b7082c2/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/144x144.png",
     "description": "中国移动官方余量查询与任务管理订阅，支持剩余流量/话费/积分等一键查询。",
-    "category": "运营商工具",
+    "category": "日常工具",
     "tags": [
       "中国移动",
       "余量查询",
@@ -321,7 +321,7 @@
     "author": "ChinaUnicomDev",
     "icon": "https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/icon.png",
     "description": "中国联通官方余量查询与任务管理订阅，支持剩余流量/话费/积分等一键查询（v4版本）。",
-    "category": "运营商工具",
+    "category": "日常工具",
     "tags": [
       "中国联通",
       "余量查询",
@@ -336,14 +336,14 @@
     "author": "陌路",
     "icon": "http://qxnav.com/images/molu.png",
     "description": "QuantumultX 规则与脚本订阅合集，涵盖运营商、出行、生活服务等279款应用，提供Cookie获取与任务自动化。",
-    "category": "综合工具箱",
+    "category": "日常工具",
     "tags": [
       "QuantumultX",
       "规则订阅",
       "Cookie获取",
       "自动化"
     ],
-    "boxjs_url": "https://qxnav.com/rules/QuantumultX/qixin.boxjs.json",
+    "boxjs_url": "http://nav.qixinpro.com/rules/QuantumultX/qixin.boxjs.json",
     "update_time": "2026-05-20"
   },
   {
@@ -352,7 +352,7 @@
     "author": "@Jsforbaby",
     "icon": "https://raw.githubusercontent.com/sE7En0908/Icon/refs/heads/master/1818.png",
     "description": "PearVideo 视频播放增强工具，支持多播放器外跳（Infuse/nPlayer/VLC等）、URL编码、insav/妻友社区/porntube等多平台视频解析。",
-    "category": "流媒体增强",
+    "category": "影视音影",
     "tags": [
       "视频播放",
       "外跳播放器",
@@ -367,7 +367,7 @@
     "author": "@VirgilClyne",
     "icon": "https://avatars.githubusercontent.com/u/182791244?s=200&v=4",
     "description": "解锁完整的 Apple功能和集成服务，包含WeatherKit、定位服务、地图、Siri、TV、News、TestFlight、Watch等模块的全面增强与自定义。",
-    "category": "工具辅助",
+    "category": "日常工具",
     "tags": [
       "Apple",
       "WeatherKit",
@@ -384,7 +384,7 @@
     "author": "@DualSubs",
     "icon": "https://avatars.githubusercontent.com/u/100578089?v=4",
     "description": "双语及增强字幕生成工具，支持Universal、YouTube、Netflix、Spotify等平台的官方字幕合成、翻译字幕生成、外部歌词补全，为HLS流媒体提供原生双语字幕体验。",
-    "category": "流媒体增强",
+    "category": "影视音影",
     "tags": [
       "双语字幕",
       "YouTube",
@@ -393,21 +393,6 @@
       "翻译"
     ],
     "boxjs_url": "https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json",
-    "update_time": "2026-05-20"
-  },
-  {
-    "id": "functional_store_hub_001",
-    "name": "功能商店中心",
-    "author": "I-am-RE",
-    "icon": "https://raw.githubusercontent.com/I-am-RE/Functional-Store-Hub/Master/BoxJsFiles/Functional-Store-Hub.json",
-    "description": "功能商店中心订阅，提供各类功能脚本与工具的集中管理。",
-    "category": "综合工具箱",
-    "tags": [
-      "功能商店",
-      "脚本管理",
-      "功能合集"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/I-am-RE/Functional-Store-Hub/Master/BoxJsFiles/Functional-Store-Hub.json",
     "update_time": "2026-05-20"
   },
   {
@@ -446,7 +431,7 @@
     "author": "evilbutcher",
     "icon": "https://avatars.githubusercontent.com/u/31956605?v=4",
     "description": "evilbutcher 的 Quantumult X 脚本订阅合集，包含丰富的功能增强与自动化脚本。",
-    "category": "综合工具箱",
+    "category": "日常工具",
     "tags": [
       "QuantumultX",
       "功能增强",
@@ -476,7 +461,7 @@
     "author": "dompling",
     "icon": "https://avatars.githubusercontent.com/u/34851185?v=4",
     "description": "dompling 的脚本订阅合集，提供多样化的自动化脚本与工具。",
-    "category": "综合工具箱",
+    "category": "日常工具",
     "tags": [
       "脚本订阅",
       "自动化",
@@ -506,7 +491,7 @@
     "author": "@DualSubs",
     "icon": "https://avatars.githubusercontent.com/u/100578089?v=4",
     "description": "DualSubs 旧版双语字幕生成工具，为HLS流媒体提供原生双语字幕体验。",
-    "category": "流媒体增强",
+    "category": "影视音影",
     "tags": [
       "双语字幕",
       "旧版",
@@ -521,7 +506,7 @@
     "author": "lowking",
     "icon": "https://avatars.githubusercontent.com/u/30301530?v=4",
     "description": "lowking 的脚本订阅合集，包含丰富的自动化脚本与工具。",
-    "category": "综合工具箱",
+    "category": "日常工具",
     "tags": [
       "脚本订阅",
       "自动化",
@@ -536,7 +521,7 @@
     "author": "id77",
     "icon": "https://avatars.githubusercontent.com/u/49089347?v=4",
     "description": "id77 的 QuantumultX 脚本订阅合集，包含丰富的功能增强与自动化脚本。",
-    "category": "综合工具箱",
+    "category": "日常工具",
     "tags": [
       "QuantumultX",
       "脚本订阅",
@@ -566,7 +551,7 @@
     "author": "xzxxn777",
     "icon": "https://avatars.githubusercontent.com/u/159828144?v=4",
     "description": "雪下雪乃的 Surge 脚本订阅合集，包含丰富的功能增强与自动化脚本。",
-    "category": "综合工具箱",
+    "category": "日常工具",
     "tags": [
       "Surge",
       "脚本订阅",
@@ -581,7 +566,7 @@
     "author": "Yu9191",
     "icon": "https://avatars.githubusercontent.com/u/103452267?v=4",
     "description": "URLscheme 脚本订阅合集，包含多种 URL Scheme 处理与功能增强脚本。",
-    "category": "工具辅助",
+    "category": "日常工具",
     "tags": [
       "URL Scheme",
       "脚本订阅",
@@ -596,7 +581,7 @@
     "author": "xiaomaoJT",
     "icon": "https://avatars.githubusercontent.com/u/89526684?v=4",
     "description": "XiaoMao 的 QxScript 脚本订阅合集，包含丰富的重写与功能增强脚本。",
-    "category": "综合工具箱",
+    "category": "日常工具",
     "tags": [
       "QuantumultX",
       "重写脚本",
@@ -611,7 +596,7 @@
     "author": "@mcdasheng",
     "icon": "https://avatars.githubusercontent.com/u/92009557",
     "description": "包含macat、漫漫游、哇哈体育、乐健体育、Bing搜索、酷我音乐、TestFlight自动加入、时间积木、起点读书、52appleid、AcFun、轻松签、ipInfo、GoFans、TopCashBack等脚本。",
-    "category": "综合工具箱",
+    "category": "日常工具",
     "tags": [
       "Bing搜索",
       "签到",
