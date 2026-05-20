@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +8,9 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        [v-cloak] {
-            display: none;
-        }
+        [v-cloak] { display: none; }
     </style>
 </head>
-
 <body class="bg-gray-50 text-gray-800 font-sans antialiased min-h-screen">
 
     <div id="app" v-cloak class="pb-16">
@@ -29,17 +25,13 @@
                         <p class="text-xs text-gray-500">快捷、聚合的 BoxJs 及软件一键订阅商店</p>
                     </div>
                 </div>
-
+                
                 <div class="flex items-center space-x-3">
-                    <div
-                        class="hidden md:flex items-center space-x-2 bg-gray-100 p-1.5 rounded-lg border border-gray-200">
-                        <span class="text-xs text-gray-500 pl-2">Relay/BoxJs 地址:</span>
-                        <input type="text" v-model="userBoxJsUrl"
-                            class="text-xs bg-white border border-gray-300 rounded px-2 py-1 w-44 focus:outline-none focus:border-blue-500"
-                            placeholder="默认 http://127.0.0.1:9999">
+                    <div class="hidden md:flex items-center space-x-2 bg-gray-100 p-1.5 rounded-lg border border-gray-200">
+                        <span class="text-xs text-gray-500 pl-2">当前订阅环境:</span>
+                        <input type="text" v-model="userBoxJsUrl" disabled class="text-xs bg-gray-200 border border-gray-300 rounded px-2 py-1 w-44 focus:outline-none text-gray-500 cursor-not-allowed" placeholder="https://boxjs.com">
                     </div>
-                    <a href="https://testflight.apple.com/join/2yES8TuF" target="_blank"
-                        class="flex items-center space-x-1 bg-amber-500 hover:bg-amber-600 active:bg-amber-700 text-white text-xs font-bold px-3 py-2 rounded-xl shadow-sm transition-all">
+                    <a href="https://testflight.apple.com/join/2yES8TuF" target="_blank" class="flex items-center space-x-1 bg-amber-500 hover:bg-amber-600 active:bg-amber-700 text-white text-xs font-bold px-3 py-2 rounded-xl shadow-sm transition-all">
                         <i class="fa-brands fa-apple text-sm"></i>
                         <span>Relay (iOS测试版)</span>
                     </a>
@@ -53,16 +45,12 @@
                 <p class="text-blue-100 max-w-xl mx-auto text-sm sm:text-base">
                     聚合圈内主流作者的 BoxJs 订阅配置。支持一键复制，一键快速绑定跳转，告别 GitHub 大海捞针。
                 </p>
-
+                
                 <div class="max-w-2xl mx-auto pt-4">
-                    <div
-                        class="relative bg-white rounded-2xl shadow-xl overflow-hidden flex items-center p-2 text-gray-600">
+                    <div class="relative bg-white rounded-2xl shadow-xl overflow-hidden flex items-center p-2 text-gray-600">
                         <i class="fa-solid fa-magnifying-glass text-gray-400 pl-3 pr-2 text-lg"></i>
-                        <input type="text" v-model="searchQuery"
-                            class="w-full py-2 px-1 text-gray-800 placeholder-gray-400 bg-transparent focus:outline-none text-base"
-                            placeholder="搜索模块名称、作者、功能或标签...">
-                        <button v-if="searchQuery" @click="searchQuery = ''"
-                            class="text-gray-400 hover:text-gray-600 px-2">
+                        <input type="text" v-model="searchQuery" class="w-full py-2 px-1 text-gray-800 placeholder-gray-400 bg-transparent focus:outline-none text-base" placeholder="搜索模块名称、作者、功能或标签...">
+                        <button v-if="searchQuery" @click="searchQuery = ''" class="text-gray-400 hover:text-gray-600 px-2">
                             <i class="fa-solid fa-circle-xmark"></i>
                         </button>
                     </div>
@@ -77,22 +65,20 @@
             </div>
 
             <div v-else class="flex flex-col lg:flex-row gap-8">
-
+                
                 <aside class="w-full lg:w-64 shrink-0 space-y-2">
                     <h3 class="text-xs font-bold text-gray-400 uppercase tracking-wider px-3 mb-2">模块分类</h3>
-                    <button @click="currentCategory = '全部'"
-                        :class="currentCategory === '全部' ? 'bg-blue-50 text-blue-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'"
-                        class="w-full text-left px-4 py-2.5 rounded-xl transition flex items-center space-x-3 text-sm">
+                    <button @click="currentCategory = '全部'" 
+                            :class="currentCategory === '全部' ? 'bg-blue-50 text-blue-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'"
+                            class="w-full text-left px-4 py-2.5 rounded-xl transition flex items-center space-x-3 text-sm">
                         <i class="fa-solid fa-border-all w-5 text-center"></i>
                         <span>全部模块</span>
-                        <span
-                            class="ml-auto bg-gray-200/60 text-gray-500 text-xs px-2 py-0.5 rounded-full font-normal">{{
-                            modules.length }}</span>
+                        <span class="ml-auto bg-gray-200/60 text-gray-500 text-xs px-2 py-0.5 rounded-full font-normal">{{ modules.length }}</span>
                     </button>
-
-                    <button v-for="cat in categories" :key="cat" @click="currentCategory = cat"
-                        :class="{'bg-blue-50 text-blue-600 font-semibold': currentCategory === cat, 'text-gray-600 hover:bg-gray-100': currentCategory !== cat}"
-                        class="w-full text-left px-4 py-2.5 rounded-xl transition flex items-center space-x-3 text-sm">
+                    
+                    <button v-for="cat in categories" :key="cat" @click="currentCategory = cat" 
+                            :class="{'bg-blue-50 text-blue-600 font-semibold': currentCategory === cat, 'text-gray-600 hover:bg-gray-100': currentCategory !== cat}"
+                            class="w-full text-left px-4 py-2.5 rounded-xl transition flex items-center space-x-3 text-sm">
                         <i :class="getCategoryIcon(cat)" class="w-5 text-center text-gray-400"></i>
                         <span>{{ cat }}</span>
                         <span class="ml-auto bg-gray-200/60 text-gray-500 text-xs px-2 py-0.5 rounded-full font-normal">
@@ -101,10 +87,8 @@
                     </button>
 
                     <div class="md:hidden mt-6 p-4 bg-white border border-gray-200 rounded-xl space-y-2">
-                        <label class="text-xs font-bold text-gray-500 block">Relay/BoxJs 运行地址：</label>
-                        <input type="text" v-model="userBoxJsUrl"
-                            class="text-sm bg-gray-50 border border-gray-300 rounded-lg px-3 py-2 w-full focus:outline-none focus:border-blue-500"
-                            placeholder="默认 http://127.0.0.1:9999">
+                        <label class="text-xs font-bold text-gray-500 block">当前订阅环境：</label>
+                        <input type="text" v-model="userBoxJsUrl" disabled class="text-sm bg-gray-100 border border-gray-300 rounded-lg px-3 py-2 w-full text-gray-500 cursor-not-allowed" placeholder="https://boxjs.com">
                     </div>
                 </aside>
 
@@ -115,8 +99,7 @@
                         </div>
                     </div>
 
-                    <div v-if="filteredModules.length === 0"
-                        class="bg-white border border-gray-200 rounded-2xl p-12 text-center max-w-lg mx-auto mt-8">
+                    <div v-if="filteredModules.length === 0" class="bg-white border border-gray-200 rounded-2xl p-12 text-center max-w-lg mx-auto mt-8">
                         <div class="text-gray-300 text-5xl mb-4">
                             <i class="fa-solid fa-box-open"></i>
                         </div>
@@ -125,21 +108,16 @@
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-                        <div v-for="mod in filteredModules" :key="mod.id"
-                            class="bg-white border border-gray-200 rounded-2xl p-5 hover:shadow-xl hover:border-blue-200 transition-all duration-300 flex flex-col group relative">
-
+                        <div v-for="mod in filteredModules" :key="mod.id" class="bg-white border border-gray-200 rounded-2xl p-5 hover:shadow-xl hover:border-blue-200 transition-all duration-300 flex flex-col group relative">
+                            
                             <div class="flex items-start space-x-4">
-                                <img :src="mod.icon" :alt="mod.name" @error="handleIconError"
-                                    class="w-12 h-12 rounded-xl object-cover border border-gray-100 bg-gray-50 shrink-0">
+                                <img :src="mod.icon" :alt="mod.name" @error="handleIconError" class="w-12 h-12 rounded-xl object-cover border border-gray-100 bg-gray-50 shrink-0">
                                 <div class="space-y-1 min-w-0 flex-1">
-                                    <h4 class="font-bold text-gray-900 truncate group-hover:text-blue-600 transition-colors"
-                                        :title="mod.name">
+                                    <h4 class="font-bold text-gray-900 truncate group-hover:text-blue-600 transition-colors" :title="mod.name">
                                         {{ mod.name }}
                                     </h4>
                                     <div class="flex items-center space-x-2 text-xs text-gray-500">
-                                        <span
-                                            class="bg-gray-100 px-2 py-0.5 rounded font-medium text-gray-600 truncate max-w-[100px]"><i
-                                                class="fa-solid fa-user mr-1 scale-90"></i>{{ mod.author }}</span>
+                                        <span class="bg-gray-100 px-2 py-0.5 rounded font-medium text-gray-600 truncate max-w-[100px]"><i class="fa-solid fa-user mr-1 scale-90"></i>{{ mod.author }}</span>
                                         <span class="text-gray-300">|</span>
                                         <span>{{ mod.update_time }}</span>
                                     </div>
@@ -151,8 +129,7 @@
                             </p>
 
                             <div class="flex flex-wrap gap-1.5 mt-4">
-                                <span v-for="tag in mod.tags" :key="tag"
-                                    class="text-[10px] bg-blue-50/60 text-blue-600 border border-blue-100/50 px-2 py-0.5 rounded-md font-medium">
+                                <span v-for="tag in mod.tags" :key="tag" class="text-[10px] bg-blue-50/60 text-blue-600 border border-blue-100/50 px-2 py-0.5 rounded-md font-medium">
                                     # {{ tag }}
                                 </span>
                             </div>
@@ -160,50 +137,41 @@
                             <hr class="border-gray-100 my-4">
 
                             <div class="grid grid-cols-2 gap-3 mt-auto relative">
-                                <button @click="copySubscription(mod.boxjs_url)"
-                                    class="flex items-center justify-center space-x-1.5 py-2 px-3 border border-gray-200 rounded-xl text-xs font-medium text-gray-700 hover:bg-gray-50 active:bg-gray-100 transition-all">
+                                <button @click="copySubscription(mod.boxjs_url)" class="flex items-center justify-center space-x-1.5 py-2 px-3 border border-gray-200 rounded-xl text-xs font-medium text-gray-700 hover:bg-gray-50 active:bg-gray-100 transition-all">
                                     <i class="fa-regular fa-copy text-gray-400"></i>
                                     <span>复制订阅</span>
                                 </button>
-
+                                
                                 <div class="relative dropdown-container">
-                                    <button @click.stop="toggleDropdown(mod.id)"
-                                        class="w-full h-full flex items-center justify-center space-x-1 py-2 px-3 bg-blue-600 text-white rounded-xl text-xs font-semibold hover:bg-blue-700 active:bg-blue-800 shadow-sm shadow-blue-100 transition-all">
+                                    <button @click.stop="toggleDropdown(mod.id)" class="w-full h-full flex items-center justify-center space-x-1 py-2 px-3 bg-blue-600 text-white rounded-xl text-xs font-semibold hover:bg-blue-700 active:bg-blue-800 shadow-sm shadow-blue-100 transition-all">
                                         <i class="fa-solid fa-paper-plane"></i>
                                         <span>一键导入</span>
                                         <i class="fa-solid fa-chevron-down text-[10px] opacity-80"></i>
                                     </button>
 
-                                    <div v-if="activeDropdown === mod.id"
-                                        class="absolute bottom-full right-0 mb-2 w-48 bg-white border border-gray-200 rounded-xl shadow-xl py-1.5 z-30">
-                                        <button @click="importToApp('relay', mod)"
-                                            class="w-full text-left px-3 py-2 text-xs hover:bg-amber-50 flex items-center space-x-2 text-gray-700 font-medium">
+                                    <div v-if="activeDropdown === mod.id" class="absolute bottom-full right-0 mb-2 w-48 bg-white border border-gray-200 rounded-xl shadow-xl py-1.5 z-30">
+                                        <button @click="importToApp('relay', mod)" class="w-full text-left px-3 py-2 text-xs hover:bg-amber-50 flex items-center space-x-2 text-gray-700 font-medium">
                                             <i class="fa-solid fa-box text-amber-500 w-4 text-center"></i>
                                             <span>导入到 iOS Relay App</span>
                                         </button>
-                                        <button @click="importToApp('boxjs', mod)"
-                                            class="w-full text-left px-3 py-2 text-xs hover:bg-blue-50 flex items-center space-x-2 text-gray-700">
+                                        <button @click="importToApp('boxjs', mod)" class="w-full text-left px-3 py-2 text-xs hover:bg-blue-50 flex items-center space-x-2 text-gray-700">
                                             <i class="fa-solid fa-cubes text-blue-500 w-4 text-center"></i>
                                             <span>网页端 BoxJs 控制台</span>
                                         </button>
                                         <div class="border-b border-gray-100 my-1"></div>
-                                        <button @click="importToApp('qx', mod)"
-                                            class="w-full text-left px-3 py-2 text-xs hover:bg-orange-50 flex items-center space-x-2 text-gray-700">
+                                        <button @click="importToApp('qx', mod)" class="w-full text-left px-3 py-2 text-xs hover:bg-orange-50 flex items-center space-x-2 text-gray-700">
                                             <i class="fa-solid fa-circle-dot text-orange-500 w-4 text-center"></i>
                                             <span>Quantumult X 唤醒</span>
                                         </button>
-                                        <button @click="importToApp('surge', mod)"
-                                            class="w-full text-left px-3 py-2 text-xs hover:bg-teal-50 flex items-center space-x-2 text-gray-700">
+                                        <button @click="importToApp('surge', mod)" class="w-full text-left px-3 py-2 text-xs hover:bg-teal-50 flex items-center space-x-2 text-gray-700">
                                             <i class="fa-solid fa-bolt text-teal-500 w-4 text-center"></i>
                                             <span>Surge 唤醒</span>
                                         </button>
-                                        <button @click="importToApp('loon', mod)"
-                                            class="w-full text-left px-3 py-2 text-xs hover:bg-yellow-50 flex items-center space-x-2 text-gray-700">
+                                        <button @click="importToApp('loon', mod)" class="w-full text-left px-3 py-2 text-xs hover:bg-yellow-50 flex items-center space-x-2 text-gray-700">
                                             <i class="fa-solid fa-compass text-yellow-500 w-4 text-center"></i>
                                             <span>Loon 唤醒</span>
                                         </button>
-                                        <button @click="importToApp('shadowrocket', mod)"
-                                            class="w-full text-left px-3 py-2 text-xs hover:bg-purple-50 flex items-center space-x-2 text-gray-700">
+                                        <button @click="importToApp('shadowrocket', mod)" class="w-full text-left px-3 py-2 text-xs hover:bg-purple-50 flex items-center space-x-2 text-gray-700">
                                             <i class="fa-solid fa-rocket text-purple-500 w-4 text-center"></i>
                                             <span>Shadowrocket 唤醒</span>
                                         </button>
@@ -217,8 +185,7 @@
             </div>
         </main>
 
-        <div v-if="toast.show"
-            class="fixed bottom-8 left-1/2 -translate-x-1/2 bg-gray-900/95 text-white px-5 py-3 rounded-2xl shadow-xl flex items-center space-x-3 z-50 text-sm max-w-sm">
+        <div v-if="toast.show" class="fixed bottom-8 left-1/2 -translate-x-1/2 bg-gray-900/95 text-white px-5 py-3 rounded-2xl shadow-xl flex items-center space-x-3 z-50 text-sm max-w-sm">
             <i :class="toast.iconClass" class="text-lg"></i>
             <span>{{ toast.message }}</span>
         </div>
@@ -229,7 +196,7 @@
 
         createApp({
             setup() {
-                const userBoxJsUrl = ref('http://127.0.0.1:9999');
+                const userBoxJsUrl = ref('https://boxjs.com');
                 const searchQuery = ref('');
                 const currentCategory = ref('全部');
                 const loading = ref(true);
@@ -253,7 +220,7 @@
                             showToast('数据加载失败，请检查 store.json 格式', false);
                             loading.value = false;
                         });
-
+                    
                     document.addEventListener('click', (e) => {
                         if (!e.target.closest('.dropdown-container')) {
                             activeDropdown.value = null;
@@ -296,8 +263,8 @@
                         if (!query) return matchCat;
 
                         return matchCat && (
-                            mod.name.toLowerCase().includes(query) ||
-                            mod.author.toLowerCase().includes(query) ||
+                            mod.name.toLowerCase().includes(query) || 
+                            mod.author.toLowerCase().includes(query) || 
                             (mod.description && mod.description.toLowerCase().includes(query)) ||
                             mod.tags.some(t => t.toLowerCase().includes(query))
                         );
@@ -328,15 +295,14 @@
 
                 const importToApp = (platform, mod) => {
                     activeDropdown.value = null;
-
+                    
                     const targetUrl = mod[`${platform}_url`] || mod.boxjs_url;
                     if (!targetUrl) {
                         showToast('该模块暂未配置对应的跳转源地址', false);
                         return;
                     }
 
-                    let baseUrl = userBoxJsUrl.value.trim();
-                    if (baseUrl.endsWith('/')) baseUrl = baseUrl.slice(0, -1);
+                    const baseUrl = 'https://boxjs.com';
 
                     let scheme = '';
                     switch (platform) {
@@ -388,5 +354,4 @@
         }).mount('#app');
     </script>
 </body>
-
 </html>
