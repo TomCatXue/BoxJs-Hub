@@ -382,7 +382,7 @@
     "id": "dualsubs_001",
     "name": "🍿️ DualSubs: 双语字幕生成",
     "author": "@DualSubs",
-    "icon": "https://avatars.githubusercontent.com/u/10057889?&v=4",
+    "icon": "https://avatars.githubusercontent.com/u/100578089?v=4",
     "description": "双语及增强字幕生成工具，支持Universal、YouTube、Netflix、Spotify等平台的官方字幕合成、翻译字幕生成、外部歌词补全，为HLS流媒体提供原生双语字幕体验。",
     "category": "流媒体增强",
     "tags": [
