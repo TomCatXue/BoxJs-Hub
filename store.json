@@ -394,5 +394,232 @@
     ],
     "boxjs_url": "https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json",
     "update_time": "2026-05-20"
+  },
+  {
+    "id": "functional_store_hub_001",
+    "name": "功能商店中心",
+    "author": "I-am-RE",
+    "icon": "https://raw.githubusercontent.com/I-am-RE/Functional-Store-Hub/Master/BoxJsFiles/Functional-Store-Hub.json",
+    "description": "功能商店中心订阅，提供各类功能脚本与工具的集中管理。",
+    "category": "综合工具箱",
+    "tags": [
+      "功能商店",
+      "脚本管理",
+      "功能合集"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/I-am-RE/Functional-Store-Hub/Master/BoxJsFiles/Functional-Store-Hub.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "pengym_boxjs_001",
+    "name": "Peng-YM 应用订阅",
+    "author": "Peng-YM",
+    "icon": "https://avatars.githubusercontent.com/u/20913522?v=4",
+    "description": "Peng-YM 的 QuanX 任务订阅合集，包含丰富的自动化任务脚本。",
+    "category": "签到挂机",
+    "tags": [
+      "QuanX",
+      "任务订阅",
+      "自动化"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/box.js.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "toulanboy_boxjs_001",
+    "name": "toulanboy 脚本订阅",
+    "author": "toulanboy",
+    "icon": "https://avatars.githubusercontent.com/u/31050853?v=4",
+    "description": "toulanboy 的脚本订阅合集，包含多种自动化签到与任务脚本。",
+    "category": "签到挂机",
+    "tags": [
+      "签到",
+      "自动化",
+      "脚本订阅"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/toulanboy/scripts/master/toulanboy.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "evilbutcher_boxjs_001",
+    "name": "邪恶屠夫应用订阅",
+    "author": "evilbutcher",
+    "icon": "https://avatars.githubusercontent.com/u/31956605?v=4",
+    "description": "evilbutcher 的 Quantumult X 脚本订阅合集，包含丰富的功能增强与自动化脚本。",
+    "category": "综合工具箱",
+    "tags": [
+      "QuantumultX",
+      "功能增强",
+      "自动化"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "zzpiglet_boxjs_001",
+    "name": "zZPiglet 应用订阅",
+    "author": "zZPiglet",
+    "icon": "https://avatars.githubusercontent.com/u/47624764?v=4",
+    "description": "zZPiglet 的任务脚本订阅合集，包含多种平台自动化签到与任务管理。",
+    "category": "签到挂机",
+    "tags": [
+      "任务脚本",
+      "自动化",
+      "签到"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/zZPiglet/Task/master/zZPiglet.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "dompling_boxjs_001",
+    "name": "DomplingYaYa 应用订阅",
+    "author": "dompling",
+    "icon": "https://avatars.githubusercontent.com/u/34851185?v=4",
+    "description": "dompling 的脚本订阅合集，提供多样化的自动化脚本与工具。",
+    "category": "综合工具箱",
+    "tags": [
+      "脚本订阅",
+      "自动化",
+      "工具"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/dompling/Script/master/dompling.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "yuheng_boxjs_001",
+    "name": "宇恒脚本",
+    "author": "Yuheng0101",
+    "icon": "https://avatars.githubusercontent.com/u/60516090?v=4",
+    "description": "Yuheng0101 的 X 任务脚本订阅，包含多种自动化签到与任务脚本。",
+    "category": "签到挂机",
+    "tags": [
+      "任务脚本",
+      "自动化",
+      "签到"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "dualsubs_legacy_001",
+    "name": "🍿️ DualSubs Legacy",
+    "author": "@DualSubs",
+    "icon": "https://avatars.githubusercontent.com/u/100578089?v=4",
+    "description": "DualSubs 旧版双语字幕生成工具，为HLS流媒体提供原生双语字幕体验。",
+    "category": "流媒体增强",
+    "tags": [
+      "双语字幕",
+      "旧版",
+      "HLS"
+    ],
+    "boxjs_url": "https://github.com/DualSubs/BoxJs/raw/main/archive/DualSubs.Legacy.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "lowking_boxjs_001",
+    "name": "lowking 应用订阅",
+    "author": "lowking",
+    "icon": "https://avatars.githubusercontent.com/u/30301530?v=4",
+    "description": "lowking 的脚本订阅合集，包含丰富的自动化脚本与工具。",
+    "category": "综合工具箱",
+    "tags": [
+      "脚本订阅",
+      "自动化",
+      "工具"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/lowking/Scripts/master/lowking.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "id77_boxjs_001",
+    "name": "id77 脚本订阅",
+    "author": "id77",
+    "icon": "https://avatars.githubusercontent.com/u/49089347?v=4",
+    "description": "id77 的 QuantumultX 脚本订阅合集，包含丰富的功能增强与自动化脚本。",
+    "category": "综合工具箱",
+    "tags": [
+      "QuantumultX",
+      "脚本订阅",
+      "自动化"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/id77/QuantumultX/master/box.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "sliverkiss_boxjs_001",
+    "name": "Sliverkiss 签到脚本订阅",
+    "author": "Sliverkiss",
+    "icon": "https://avatars.githubusercontent.com/u/80166756?v=4",
+    "description": "Sliverkiss 的签到脚本订阅合集，包含多种平台的自动化签到脚本。",
+    "category": "签到挂机",
+    "tags": [
+      "签到",
+      "自动化",
+      "脚本订阅"
+    ],
+    "boxjs_url": "https://gist.githubusercontent.com/Sliverkiss/18bd01be356360a8065a21ea71685ad3/raw/sliverkiss.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "xzxxn777_boxjs_001",
+    "name": "雪下雪乃",
+    "author": "xzxxn777",
+    "icon": "https://avatars.githubusercontent.com/u/159828144?v=4",
+    "description": "雪下雪乃的 Surge 脚本订阅合集，包含丰富的功能增强与自动化脚本。",
+    "category": "综合工具箱",
+    "tags": [
+      "Surge",
+      "脚本订阅",
+      "自动化"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/xzxxn777/Surge/main/xzxxn.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "yu9191_boxjs_001",
+    "name": "URLscheme",
+    "author": "Yu9191",
+    "icon": "https://avatars.githubusercontent.com/u/103452267?v=4",
+    "description": "URLscheme 脚本订阅合集，包含多种 URL Scheme 处理与功能增强脚本。",
+    "category": "工具辅助",
+    "tags": [
+      "URL Scheme",
+      "脚本订阅",
+      "功能增强"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "xiaomao_boxjs_001",
+    "name": "XiaoMao 应用订阅",
+    "author": "xiaomaoJT",
+    "icon": "https://avatars.githubusercontent.com/u/89526684?v=4",
+    "description": "XiaoMao 的 QxScript 脚本订阅合集，包含丰富的重写与功能增强脚本。",
+    "category": "综合工具箱",
+    "tags": [
+      "QuantumultX",
+      "重写脚本",
+      "功能增强"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/XiaoMao.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "mcdasheng_boxjs_001",
+    "name": "mcdasheng 脚本订阅",
+    "author": "@mcdasheng",
+    "icon": "https://avatars.githubusercontent.com/u/92009557",
+    "description": "包含macat、漫漫游、哇哈体育、乐健体育、Bing搜索、酷我音乐、TestFlight自动加入、时间积木、起点读书、52appleid、AcFun、轻松签、ipInfo、GoFans、TopCashBack等脚本。",
+    "category": "综合工具箱",
+    "tags": [
+      "Bing搜索",
+      "签到",
+      "自动化",
+      "乐健体育",
+      "起点读书"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/mcdasheng.boxjs.json",
+    "update_time": "2026-05-20"
   }
 ]
