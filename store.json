@@ -1,0 +1,287 @@
+[
+  {
+    "id": "chavy_boxjs_001",
+    "name": "Chavy 签到助手面板",
+    "author": "Chavy",
+    "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
+    "description": "包含各大主流电商（京东、淘宝等）、音视频（网易云、腾讯视频）每日自动签到及多账户管理看板。",
+    "category": "签到挂机",
+    "tags": [
+      "京东",
+      "自动签到",
+      "多账号"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json",
+    "update_time": "2026-05-18"
+  },
+  {
+    "id": "nobyda_001",
+    "name": "NobyDa 京东多合一",
+    "author": "NobyDa",
+    "icon": "https://avatars2.githubusercontent.com/u/53217160",
+    "description": "久经考验的京东多合一自动化运维工具，支持京豆、钢镚、各种活动的一键自动化打卡收集与持久化报表查看。",
+    "category": "签到挂机",
+    "tags": [
+      "京豆",
+      "多合一",
+      "定时脚本"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json",
+    "update_time": "2026-05-19"
+  },
+  {
+    "id": "system_cleaner",
+    "name": "应用去广告 & 缓存深度清理",
+    "author": "BlackMatrix",
+    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
+    "description": "通过 MITM 深度拦截和剥离主流 App 启动广告，优化加载耗时，并在面板内提供各规则的开关控制状态监测。",
+    "category": "系统优化",
+    "tags": [
+      "去广告",
+      "MITM",
+      "隐私保护"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs/blackmatrix7.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "fmz200_boxjs_001",
+    "name": "fmz200 wool_scripts BoxJS",
+    "author": "fmz200",
+    "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
+    "description": "致敬开源精神，净化网络环境。包含大量签到脚本、去广告规则、Cookie获取合集等综合工具箱。",
+    "category": "综合工具箱",
+    "tags": [
+      "签到",
+      "去广告",
+      "综合脚本"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "chavyleung_env_001",
+    "name": "Chavy Env.js 环境库",
+    "author": "Chavy",
+    "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
+    "description": "BoxJS 核心环境库，提供 HttpClient、持久化数据等强大功能，是众多脚本的基石。",
+    "category": "基础环境",
+    "tags": [
+      "Env.js",
+      "基础库",
+      "HTTP客户端"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json",
+    "update_time": "2026-05-18"
+  },
+  {
+    "id": "blackmatrix7_rule_001",
+    "name": "BlackMatrix7 规则与脚本",
+    "author": "BlackMatrix",
+    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
+    "description": "各平台的分流规则、复写规则及自动化脚本，包含什么值得买、百度贴吧、叮咚买菜等签到脚本。",
+    "category": "规则脚本",
+    "tags": [
+      "分流规则",
+      "复写规则",
+      "签到脚本"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "nobyda_script_001",
+    "name": "NobyDa 综合脚本库",
+    "author": "NobyDa",
+    "icon": "https://avatars2.githubusercontent.com/u/53217160",
+    "description": "NobyDa 全平台脚本合集，涵盖京东、淘宝、拼多多、美团、爱奇艺等多平台签到与自动化任务。",
+    "category": "签到挂机",
+    "tags": [
+      "多平台",
+      "自动化",
+      "签到"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json",
+    "update_time": "2026-05-19"
+  },
+  {
+    "id": "chavyleung_scripts_001",
+    "name": "Chavy 全平台签到合集",
+    "author": "Chavy",
+    "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
+    "description": "覆盖京东、网易云音乐、腾讯视频、喜马拉雅、顺丰速运、美团外卖等数十个平台的自动签到脚本。",
+    "category": "签到挂机",
+    "tags": [
+      "全平台",
+      "自动签到",
+      "Chavy"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json",
+    "update_time": "2026-05-18"
+  },
+  {
+    "id": "smzdm_tool_001",
+    "name": "什么值得买工具集",
+    "author": "BlackMatrix",
+    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
+    "description": "专注于什么值得买平台的任务执行与去广告优化，支持MagicJS 2/3框架。",
+    "category": "签到挂机",
+    "tags": [
+      "什么值得买",
+      "任务执行",
+      "去广告"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs/blackmatrix7.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "app_signin_001",
+    "name": "多应用签到合集",
+    "author": "BlackMatrix",
+    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
+    "description": "包含Luka、叮咚买菜、Fa米家、慢慢买、哲也同学、群晖Synology等多应用自动签到。",
+    "category": "签到挂机",
+    "tags": [
+      "多应用",
+      "自动签到",
+      "MagicJS"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs/blackmatrix7.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "apple_monitor_001",
+    "name": "AppleStore 商品监控",
+    "author": "BlackMatrix",
+    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
+    "description": "AppleStore 商品库存监控脚本，支持多地区、多商品监控与通知提醒。",
+    "category": "监控提醒",
+    "tags": [
+      "Apple",
+      "库存监控",
+      "通知"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs/blackmatrix7.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "startup_ad_001",
+    "name": "App开屏去广告",
+    "author": "BlackMatrix",
+    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
+    "description": "通过脚本去除缓存到本地的APP开屏广告，基于MagicJS 3框架实现。",
+    "category": "系统优化",
+    "tags": [
+      "开屏广告",
+      "去广告",
+      "MagicJS3"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs/blackmatrix7.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "fmz200_task_001",
+    "name": "fmz200 任务订阅",
+    "author": "fmz200",
+    "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
+    "description": "fmz200羊毛脚本任务订阅，包含大量签到、领券、做任务等自动化脚本。",
+    "category": "任务自动化",
+    "tags": [
+      "任务",
+      "羊毛",
+      "自动化"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "fmz200_cookie_001",
+    "name": "fmz200 Cookie获取合集",
+    "author": "fmz200",
+    "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
+    "description": "包含fmz200/NobyDa/chavyleung/Sunert等多作者Cookie和Token获取脚本合集。",
+    "category": "工具辅助",
+    "tags": [
+      "Cookie",
+      "Token",
+      "获取工具"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "fmz200_ad_001",
+    "name": "fmz200 去广告合集",
+    "author": "fmz200",
+    "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
+    "description": "支持约538款APP/小程序的去广告规则合集，针对部分APP和小程序广告进行拦截。",
+    "category": "系统优化",
+    "tags": [
+      "去广告",
+      "APP净化",
+      "小程序"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "fmz200_ai_001",
+    "name": "fmz200 AI模型分流",
+    "author": "fmz200",
+    "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
+    "description": "汇集常用的AI模型分流规则，支持ChatGPT、Claude、Gemini等主流AI服务。",
+    "category": "网络优化",
+    "tags": [
+      "AI",
+      "分流规则",
+      "ChatGPT"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "fmz200_icon_001",
+    "name": "fmz200 图标库",
+    "author": "fmz200",
+    "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
+    "description": "包含APP、机场、LPL等大量图标资源，用于BoxJS面板图标展示。",
+    "category": "资源素材",
+    "tags": [
+      "图标",
+      "素材",
+      "APP图标"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "jd_all_001",
+    "name": "京东全平台签到",
+    "author": "NobyDa",
+    "icon": "https://avatars2.githubusercontent.com/u/53217160",
+    "description": "京东全平台签到与活动自动化，包括京豆、红包、钢镚、京东极速版、京东金融等。",
+    "category": "签到挂机",
+    "tags": [
+      "京东",
+      "全平台",
+      "京豆"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json",
+    "update_time": "2026-05-19"
+  },
+  {
+    "id": "music_video_001",
+    "name": "音视频签到合集",
+    "author": "Chavy",
+    "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
+    "description": "网易云音乐、QQ音乐、腾讯视频、芒果TV、爱奇艺等音视频平台每日签到。",
+    "category": "签到挂机",
+    "tags": [
+      "音乐",
+      "视频",
+      "签到"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json",
+    "update_time": "2026-05-18"
+  }
+]
