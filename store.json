@@ -41,7 +41,7 @@
       "MITM",
       "隐私保护"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs/blackmatrix7.boxjs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
     "update_time": "2026-05-20"
   },
   {
@@ -131,7 +131,7 @@
       "任务执行",
       "去广告"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs/blackmatrix7.boxjs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
     "update_time": "2026-05-20"
   },
   {
@@ -146,7 +146,7 @@
       "自动签到",
       "MagicJS"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs/blackmatrix7.boxjs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
     "update_time": "2026-05-20"
   },
   {
@@ -161,7 +161,7 @@
       "库存监控",
       "通知"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs/blackmatrix7.boxjs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
     "update_time": "2026-05-20"
   },
   {
@@ -176,7 +176,7 @@
       "去广告",
       "MagicJS3"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs/blackmatrix7.boxjs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
     "update_time": "2026-05-20"
   },
   {
@@ -297,7 +297,7 @@
       "CDN分流",
       "界面自定义"
     ],
-    "boxjs_url": "https://github.com/BiliUniverse/BoxJs/raw/main/BiliBili.boxjs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/BiliUniverse/BoxJs/main/BiliBili.boxjs.json",
     "update_time": "2026-05-20"
   },
   {
@@ -375,7 +375,7 @@
       "Siri",
       "定位服务"
     ],
-    "boxjs_url": "https://github.com/NSRingo/BoxJs/raw/main/iRingo.BoxJs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/NSRingo/BoxJs/main/iRingo.BoxJs.json",
     "update_time": "2026-05-20"
   },
   {
@@ -392,7 +392,7 @@
       "Spotify",
       "翻译"
     ],
-    "boxjs_url": "https://github.com/DualSubs/BoxJs/raw/main/DualSubs.BoxJs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json",
     "update_time": "2026-05-20"
   }
 ]
