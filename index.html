@@ -302,14 +302,16 @@
                         return;
                     }
 
-                    const baseUrl = 'https://boxjs.com';
-
                     let scheme = '';
                     switch (platform) {
                         case 'relay':
+                            // 优化更改：一键唤醒 iOS Relay App 的原生 URL Scheme 协议
+                            scheme = `relay://import?url=${encodeURIComponent(targetUrl)}`;
+                            showToast('正在唤醒 iOS Relay App 导入订阅...');
+                            break;
                         case 'boxjs':
-                            scheme = `${baseUrl}/#/sub/add?url=${encodeURIComponent(targetUrl)}`;
-                            showToast(platform === 'relay' ? '正在往 Relay 发送订阅导入指令...' : '正在打开网页控制台...');
+                            scheme = `https://boxjs.com/#/sub/add?url=${encodeURIComponent(targetUrl)}`;
+                            showToast('正在打开网页控制台...');
                             break;
                         case 'qx':
                             scheme = `quantumult-x:///add-resource?remote-resource=%7B%22rewrite_list%22%3A%5B%22${encodeURIComponent(targetUrl)}%22%5D%7D`;

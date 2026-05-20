@@ -283,5 +283,116 @@
     ],
     "boxjs_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json",
     "update_time": "2026-05-18"
+  },
+  {
+    "id": "biliuniverse_bilibili_001",
+    "name": "BiliUniverse: BiliBili 功能增强",
+    "author": "@BiliUniverse",
+    "icon": "https://avatars.githubusercontent.com/u/129515498?s=200&v=4",
+    "description": "哔哩哔哩中国版流媒体平台功能增强系列，包含首页/分区/我的页面自定义、CDN分流、去广告等功能。",
+    "category": "流媒体增强",
+    "tags": [
+      "哔哩哔哩",
+      "去广告",
+      "CDN分流",
+      "界面自定义"
+    ],
+    "boxjs_url": "https://github.com/BiliUniverse/BoxJs/raw/main/BiliBili.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "chinamobile_001",
+    "name": "ChinaMobile 的应用订阅",
+    "author": "ChinaMobileDev",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/8b/03/928b0371-20fc-288b-e4e4-05f48b7082c2/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/144x144.png",
+    "description": "中国移动官方余量查询与任务管理订阅，支持剩余流量/话费/积分等一键查询。",
+    "category": "运营商工具",
+    "tags": [
+      "中国移动",
+      "余量查询",
+      "10086"
+    ],
+    "boxjs_url": "https://github.com/ChinaTelecomOperators/ChinaMobile/releases/download/Prerelease-Alpha/boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "chinaunicom_001",
+    "name": "ChinaUnicom 的应用订阅",
+    "author": "ChinaUnicomDev",
+    "icon": "https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/icon.png",
+    "description": "中国联通官方余量查询与任务管理订阅，支持剩余流量/话费/积分等一键查询（v4版本）。",
+    "category": "运营商工具",
+    "tags": [
+      "中国联通",
+      "余量查询",
+      "10010"
+    ],
+    "boxjs_url": "https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "qixin_001",
+    "name": "奇心应用订阅合集",
+    "author": "陌路",
+    "icon": "http://qxnav.com/images/molu.png",
+    "description": "QuantumultX 规则与脚本订阅合集，涵盖运营商、出行、生活服务等279款应用，提供Cookie获取与任务自动化。",
+    "category": "综合工具箱",
+    "tags": [
+      "QuantumultX",
+      "规则订阅",
+      "Cookie获取",
+      "自动化"
+    ],
+    "boxjs_url": "https://qxnav.com/rules/QuantumultX/qixin.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "pearvideo_001",
+    "name": "PearVideo 播放器增强",
+    "author": "@Jsforbaby",
+    "icon": "https://raw.githubusercontent.com/sE7En0908/Icon/refs/heads/master/1818.png",
+    "description": "PearVideo 视频播放增强工具，支持多播放器外跳（Infuse/nPlayer/VLC等）、URL编码、insav/妻友社区/porntube等多平台视频解析。",
+    "category": "流媒体增强",
+    "tags": [
+      "视频播放",
+      "外跳播放器",
+      "视频解析"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "nsringo_irongo_001",
+    "name": " iRingo: Apple 功能增强",
+    "author": "@VirgilClyne",
+    "icon": "https://avatars.githubusercontent.com/u/182791244?s=200&v=4",
+    "description": "解锁完整的 Apple功能和集成服务，包含WeatherKit、定位服务、地图、Siri、TV、News、TestFlight、Watch等模块的全面增强与自定义。",
+    "category": "工具辅助",
+    "tags": [
+      "Apple",
+      "WeatherKit",
+      "地图增强",
+      "Siri",
+      "定位服务"
+    ],
+    "boxjs_url": "https://github.com/NSRingo/BoxJs/raw/main/iRingo.BoxJs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "dualsubs_001",
+    "name": "🍿️ DualSubs: 双语字幕生成",
+    "author": "@DualSubs",
+    "icon": "https://avatars.githubusercontent.com/u/10057889?&v=4",
+    "description": "双语及增强字幕生成工具，支持Universal、YouTube、Netflix、Spotify等平台的官方字幕合成、翻译字幕生成、外部歌词补全，为HLS流媒体提供原生双语字幕体验。",
+    "category": "流媒体增强",
+    "tags": [
+      "双语字幕",
+      "YouTube",
+      "Netflix",
+      "Spotify",
+      "翻译"
+    ],
+    "boxjs_url": "https://github.com/DualSubs/BoxJs/raw/main/DualSubs.BoxJs.json",
+    "update_time": "2026-05-20"
   }
 ]
