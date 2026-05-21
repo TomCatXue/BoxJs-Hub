@@ -1,4 +1,101 @@
-[
+﻿[
+  {
+    "id": "biliuniverse_bilibili_001",
+    "name": "BiliUniverse: BiliBili 功能增强",
+    "author": "@BiliUniverse",
+    "icon": "https://avatars.githubusercontent.com/u/129515498?s=200&v=4",
+    "description": "哔哩哔哩中国版流媒体平台功能增强系列，包含首页/分区/我的页面自定义、CDN分流、去广告等功能。",
+    "category": "影视音影",
+    "tags": [
+      "哔哩哔哩",
+      "去广告",
+      "CDN分流",
+      "界面自定义"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/BiliUniverse/BoxJs/main/BiliBili.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "dualsubs_001",
+    "name": "🍿️ DualSubs: 双语字幕生成",
+    "author": "@DualSubs",
+    "icon": "https://avatars.githubusercontent.com/u/100578089?v=4",
+    "description": "双语及增强字幕生成工具，支持Universal、YouTube、Netflix、Spotify等平台的官方字幕合成、翻译字幕生成、外部歌词补全，为HLS流媒体提供原生双语字幕体验。",
+    "category": "影视音影",
+    "tags": [
+      "双语字幕",
+      "YouTube",
+      "Netflix",
+      "Spotify",
+      "翻译"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "dualsubs_legacy_001",
+    "name": "🍿️ DualSubs Legacy",
+    "author": "@DualSubs",
+    "icon": "https://avatars.githubusercontent.com/u/100578089?v=4",
+    "description": "DualSubs 旧版双语字幕生成工具，为HLS流媒体提供原生双语字幕体验。",
+    "category": "影视音影",
+    "tags": [
+      "双语字幕",
+      "旧版",
+      "HLS"
+    ],
+    "boxjs_url": "https://github.com/DualSubs/BoxJs/raw/main/archive/DualSubs.Legacy.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "pearvideo_001",
+    "name": "PearVideo 播放器增强",
+    "author": "@Jsforbaby",
+    "icon": "https://raw.githubusercontent.com/sE7En0908/Icon/refs/heads/master/1818.png",
+    "description": "PearVideo 视频播放增强工具，支持多播放器外跳（Infuse/nPlayer/VLC等）、URL编码、insav/妻友社区/porntube等多平台视频解析。",
+    "category": "影视音影",
+    "tags": [
+      "视频播放",
+      "外跳播放器",
+      "视频解析"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "mcdasheng_boxjs_001",
+    "name": "mcdasheng 脚本订阅",
+    "author": "@mcdasheng",
+    "icon": "https://avatars.githubusercontent.com/u/92009557",
+    "description": "包含macat、漫漫游、哇哈体育、乐健体育、Bing搜索、酷我音乐、TestFlight自动加入、时间积木、起点读书、52appleid、AcFun、轻松签、ipInfo、GoFans、TopCashBack等脚本。",
+    "category": "日常工具",
+    "tags": [
+      "Bing搜索",
+      "签到",
+      "自动化",
+      "乐健体育",
+      "起点读书"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/mcdasheng.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "nsringo_irongo_001",
+    "name": " iRingo: Apple 功能增强",
+    "author": "@VirgilClyne",
+    "icon": "https://avatars.githubusercontent.com/u/182791244?s=200&v=4",
+    "description": "解锁完整的 Apple功能和集成服务，包含WeatherKit、定位服务、地图、Siri、TV、News、TestFlight、Watch等模块的全面增强与自定义。",
+    "category": "日常工具",
+    "tags": [
+      "Apple",
+      "WeatherKit",
+      "地图增强",
+      "Siri",
+      "定位服务"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/NSRingo/BoxJs/main/iRingo.BoxJs.json",
+    "update_time": "2026-05-20"
+  },
   {
     "id": "age174_boxjs_001",
     "name": "age174 肥皂订阅",
@@ -28,22 +125,6 @@
     ],
     "boxjs_url": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Ariszy.boxjs.json",
     "update_time": "2026-05-21"
-  },
-  {
-    "id": "biliuniverse_bilibili_001",
-    "name": "BiliUniverse: BiliBili 功能增强",
-    "author": "@BiliUniverse",
-    "icon": "https://avatars.githubusercontent.com/u/129515498?s=200&v=4",
-    "description": "哔哩哔哩中国版流媒体平台功能增强系列，包含首页/分区/我的页面自定义、CDN分流、去广告等功能。",
-    "category": "影视音影",
-    "tags": [
-      "哔哩哔哩",
-      "去广告",
-      "CDN分流",
-      "界面自定义"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/BiliUniverse/BoxJs/main/BiliBili.boxjs.json",
-    "update_time": "2026-05-20"
   },
   {
     "id": "system_cleaner",
@@ -136,38 +217,6 @@
     "update_time": "2026-05-20"
   },
   {
-    "id": "dualsubs_001",
-    "name": "🍿️ DualSubs: 双语字幕生成",
-    "author": "@DualSubs",
-    "icon": "https://avatars.githubusercontent.com/u/100578089?v=4",
-    "description": "双语及增强字幕生成工具，支持Universal、YouTube、Netflix、Spotify等平台的官方字幕合成、翻译字幕生成、外部歌词补全，为HLS流媒体提供原生双语字幕体验。",
-    "category": "影视音影",
-    "tags": [
-      "双语字幕",
-      "YouTube",
-      "Netflix",
-      "Spotify",
-      "翻译"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json",
-    "update_time": "2026-05-20"
-  },
-  {
-    "id": "dualsubs_legacy_001",
-    "name": "🍿️ DualSubs Legacy",
-    "author": "@DualSubs",
-    "icon": "https://avatars.githubusercontent.com/u/100578089?v=4",
-    "description": "DualSubs 旧版双语字幕生成工具，为HLS流媒体提供原生双语字幕体验。",
-    "category": "影视音影",
-    "tags": [
-      "双语字幕",
-      "旧版",
-      "HLS"
-    ],
-    "boxjs_url": "https://github.com/DualSubs/BoxJs/raw/main/archive/DualSubs.Legacy.boxjs.json",
-    "update_time": "2026-05-20"
-  },
-  {
     "id": "evilbutcher_boxjs_001",
     "name": "邪恶屠夫应用订阅",
     "author": "evilbutcher",
@@ -228,21 +277,6 @@
     "update_time": "2026-05-20"
   },
   {
-    "id": "pearvideo_001",
-    "name": "PearVideo 播放器增强",
-    "author": "@Jsforbaby",
-    "icon": "https://raw.githubusercontent.com/sE7En0908/Icon/refs/heads/master/1818.png",
-    "description": "PearVideo 视频播放增强工具，支持多播放器外跳（Infuse/nPlayer/VLC等）、URL编码、insav/妻友社区/porntube等多平台视频解析。",
-    "category": "影视音影",
-    "tags": [
-      "视频播放",
-      "外跳播放器",
-      "视频解析"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.boxjs.json",
-    "update_time": "2026-05-20"
-  },
-  {
     "id": "lowking_boxjs_001",
     "name": "lowking 应用订阅",
     "author": "lowking",
@@ -273,23 +307,6 @@
     ],
     "boxjs_url": "https://qxnav.com/rules/QuantumultX/js/lxk0301.boxjs.json",
     "update_time": "2026-05-21"
-  },
-  {
-    "id": "mcdasheng_boxjs_001",
-    "name": "mcdasheng 脚本订阅",
-    "author": "@mcdasheng",
-    "icon": "https://avatars.githubusercontent.com/u/92009557",
-    "description": "包含macat、漫漫游、哇哈体育、乐健体育、Bing搜索、酷我音乐、TestFlight自动加入、时间积木、起点读书、52appleid、AcFun、轻松签、ipInfo、GoFans、TopCashBack等脚本。",
-    "category": "日常工具",
-    "tags": [
-      "Bing搜索",
-      "签到",
-      "自动化",
-      "乐健体育",
-      "起点读书"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/mcdasheng.boxjs.json",
-    "update_time": "2026-05-20"
   },
   {
     "id": "nobyda_001",
@@ -429,23 +446,6 @@
     ],
     "boxjs_url": "https://ooxx.be/js/box.json",
     "update_time": "2026-05-21"
-  },
-  {
-    "id": "nsringo_irongo_001",
-    "name": " iRingo: Apple 功能增强",
-    "author": "@VirgilClyne",
-    "icon": "https://avatars.githubusercontent.com/u/182791244?s=200&v=4",
-    "description": "解锁完整的 Apple功能和集成服务，包含WeatherKit、定位服务、地图、Siri、TV、News、TestFlight、Watch等模块的全面增强与自定义。",
-    "category": "日常工具",
-    "tags": [
-      "Apple",
-      "WeatherKit",
-      "地图增强",
-      "Siri",
-      "定位服务"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/NSRingo/BoxJs/main/iRingo.BoxJs.json",
-    "update_time": "2026-05-20"
   },
   {
     "id": "virgilclyne_fries_001",
