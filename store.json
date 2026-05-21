@@ -1,213 +1,33 @@
 [
   {
-    "id": "chavy_boxjs_001",
-    "name": "Chavy 签到助手面板",
-    "author": "Chavy",
-    "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
-    "description": "包含各大主流电商（京东、淘宝等）、音视频（网易云、腾讯视频）每日自动签到及多账户管理看板。",
-    "category": "签到挂机",
-    "tags": [
-      "京东",
-      "自动签到",
-      "多账号"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json",
-    "update_time": "2026-05-18"
-  },
-  {
-    "id": "nobyda_001",
-    "name": "NobyDa 京东多合一",
-    "author": "NobyDa",
-    "icon": "https://avatars2.githubusercontent.com/u/53217160",
-    "description": "久经考验的京东多合一自动化运维工具，支持京豆、钢镚、各种活动的一键自动化打卡收集与持久化报表查看。",
-    "category": "签到挂机",
-    "tags": [
-      "京豆",
-      "多合一",
-      "定时脚本"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json",
-    "update_time": "2026-05-19"
-  },
-  {
-    "id": "system_cleaner",
-    "name": "应用去广告 & 缓存深度清理",
-    "author": "BlackMatrix",
-    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
-    "description": "通过 MITM 深度拦截和剥离主流 App 启动广告，优化加载耗时，并在面板内提供各规则的开关控制状态监测。",
-    "category": "系统优化",
-    "tags": [
-      "去广告",
-      "MITM",
-      "隐私保护"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
-    "update_time": "2026-05-20"
-  },
-  {
-    "id": "fmz200_boxjs_001",
-    "name": "fmz200 wool_scripts BoxJS",
-    "author": "fmz200",
-    "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
-    "description": "致敬开源精神，净化网络环境。包含大量签到脚本、去广告规则、Cookie获取合集等综合工具箱。",
+    "id": "age174_boxjs_001",
+    "name": "age174 肥皂订阅",
+    "author": "age174",
+    "icon": "https://avatars.githubusercontent.com/u/49402456?v=4",
+    "description": "肥皂脚本订阅合集，包含丰富的自动化任务与功能增强脚本。",
     "category": "日常工具",
     "tags": [
-      "签到",
-      "去广告",
-      "综合脚本"
+      "肥皂",
+      "脚本订阅",
+      "自动化"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json",
-    "update_time": "2026-05-20"
+    "boxjs_url": "https://raw.githubusercontent.com/age174/-/main/feizao.box.json",
+    "update_time": "2026-05-21"
   },
   {
-    "id": "chavyleung_env_001",
-    "name": "Chavy Env.js 环境库",
-    "author": "Chavy",
-    "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
-    "description": "BoxJS 核心环境库，提供 HttpClient、持久化数据等强大功能，是众多脚本的基石。",
+    "id": "ariszy_boxjs_001",
+    "name": "Ariszy 私藏脚本",
+    "author": "Ariszy",
+    "icon": "https://avatars.githubusercontent.com/u/82964755?v=4",
+    "description": "Ariszy 私人脚本订阅合集，包含多种自动化签到与功能脚本。",
     "category": "日常工具",
     "tags": [
-      "Env.js",
-      "基础库",
-      "HTTP客户端"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json",
-    "update_time": "2026-05-18"
-  },
-  {
-    "id": "blackmatrix7_rule_001",
-    "name": "BlackMatrix7 规则与脚本",
-    "author": "BlackMatrix",
-    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
-    "description": "各平台的分流规则、复写规则及自动化脚本，包含什么值得买、百度贴吧、叮咚买菜等签到脚本。",
-    "category": "科学上网",
-    "tags": [
-      "分流规则",
-      "复写规则",
-      "签到脚本"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
-    "update_time": "2026-05-20"
-  },
-  {
-    "id": "nobyda_script_001",
-    "name": "NobyDa 综合脚本库",
-    "author": "NobyDa",
-    "icon": "https://avatars2.githubusercontent.com/u/53217160",
-    "description": "NobyDa 全平台脚本合集，涵盖京东、淘宝、拼多多、美团、爱奇艺等多平台签到与自动化任务。",
-    "category": "签到挂机",
-    "tags": [
-      "多平台",
+      "脚本订阅",
       "自动化",
       "签到"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json",
-    "update_time": "2026-05-19"
-  },
-  {
-    "id": "chavyleung_scripts_001",
-    "name": "Chavy 全平台签到合集",
-    "author": "Chavy",
-    "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
-    "description": "覆盖京东、网易云音乐、腾讯视频、喜马拉雅、顺丰速运、美团外卖等数十个平台的自动签到脚本。",
-    "category": "签到挂机",
-    "tags": [
-      "全平台",
-      "自动签到",
-      "Chavy"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json",
-    "update_time": "2026-05-18"
-  },
-  {
-    "id": "smzdm_tool_001",
-    "name": "什么值得买工具集",
-    "author": "BlackMatrix",
-    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
-    "description": "专注于什么值得买平台的任务执行与去广告优化，支持MagicJS 2/3框架。",
-    "category": "签到挂机",
-    "tags": [
-      "什么值得买",
-      "任务执行",
-      "去广告"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
-    "update_time": "2026-05-20"
-  },
-  {
-    "id": "app_signin_001",
-    "name": "多应用签到合集",
-    "author": "BlackMatrix",
-    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
-    "description": "包含Luka、叮咚买菜、Fa米家、慢慢买、哲也同学、群晖Synology等多应用自动签到。",
-    "category": "签到挂机",
-    "tags": [
-      "多应用",
-      "自动签到",
-      "MagicJS"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
-    "update_time": "2026-05-20"
-  },
-  {
-    "id": "apple_monitor_001",
-    "name": "AppleStore 商品监控",
-    "author": "BlackMatrix",
-    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
-    "description": "AppleStore 商品库存监控脚本，支持多地区、多商品监控与通知提醒。",
-    "category": "日常工具",
-    "tags": [
-      "Apple",
-      "库存监控",
-      "通知"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
-    "update_time": "2026-05-20"
-  },
-  {
-    "id": "startup_ad_001",
-    "name": "App开屏去广告",
-    "author": "BlackMatrix",
-    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
-    "description": "通过脚本去除缓存到本地的APP开屏广告，基于MagicJS 3框架实现。",
-    "category": "系统优化",
-    "tags": [
-      "开屏广告",
-      "去广告",
-      "MagicJS3"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
-    "update_time": "2026-05-20"
-  },
-  {
-    "id": "jd_all_001",
-    "name": "京东全平台签到",
-    "author": "NobyDa",
-    "icon": "https://avatars2.githubusercontent.com/u/53217160",
-    "description": "京东全平台签到与活动自动化，包括京豆、红包、钢镚、京东极速版、京东金融等。",
-    "category": "签到挂机",
-    "tags": [
-      "京东",
-      "全平台",
-      "京豆"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json",
-    "update_time": "2026-05-19"
-  },
-  {
-    "id": "music_video_001",
-    "name": "音视频签到合集",
-    "author": "Chavy",
-    "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
-    "description": "网易云音乐、QQ音乐、腾讯视频、芒果TV、爱奇艺等音视频平台每日签到。",
-    "category": "签到挂机",
-    "tags": [
-      "音乐",
-      "视频",
-      "签到"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json",
-    "update_time": "2026-05-18"
+    "boxjs_url": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Ariszy.boxjs.json",
+    "update_time": "2026-05-21"
   },
   {
     "id": "biliuniverse_bilibili_001",
@@ -226,8 +46,38 @@
     "update_time": "2026-05-20"
   },
   {
+    "id": "system_cleaner",
+    "name": "应用去广告 & 缓存深度清理",
+    "author": "BlackMatrix",
+    "icon": "https://avatars.githubusercontent.com/u/20042456?v=4",
+    "description": "通过 MITM 深度拦截和剥离主流 App 启动广告，优化加载耗时，并在面板内提供各规则的开关控制状态监测。",
+    "category": "系统优化",
+    "tags": [
+      "去广告",
+      "MITM",
+      "隐私保护"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "chavy_boxjs_001",
+    "name": "Chavy 签到助手面板",
+    "author": "Chavy",
+    "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
+    "description": "包含各大主流电商（京东、淘宝等）、音视频（网易云、腾讯视频）每日自动签到及多账户管理看板。",
+    "category": "签到挂机",
+    "tags": [
+      "京东",
+      "自动签到",
+      "多账号"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json",
+    "update_time": "2026-05-18"
+  },
+  {
     "id": "chinamobile_001",
-    "name": "ChinaMobile 的应用订阅",
+    "name": "ChinaMobile 应用订阅",
     "author": "ChinaMobileDev",
     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/8b/03/928b0371-20fc-288b-e4e4-05f48b7082c2/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/144x144.png",
     "description": "中国移动官方余量查询与任务管理订阅，支持剩余流量/话费/积分等一键查询。",
@@ -238,11 +88,11 @@
       "10086"
     ],
     "boxjs_url": "https://github.com/ChinaTelecomOperators/ChinaMobile/releases/download/Prerelease-Alpha/boxjs.json",
-    "update_time": "2026-05-20"
+    "update_time": "2026-05-21"
   },
   {
     "id": "chinaunicom_001",
-    "name": "ChinaUnicom 的应用订阅",
+    "name": "ChinaUnicom 应用订阅",
     "author": "ChinaUnicomDev",
     "icon": "https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/icon.png",
     "description": "中国联通官方余量查询与任务管理订阅，支持剩余流量/话费/积分等一键查询（v4版本）。",
@@ -253,54 +103,36 @@
       "10010"
     ],
     "boxjs_url": "https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/boxjs.json",
-    "update_time": "2026-05-20"
+    "update_time": "2026-05-21"
   },
   {
-    "id": "qixin_001",
-    "name": "奇心应用订阅合集",
-    "author": "陌路",
-    "icon": "http://qxnav.com/images/molu.png",
-    "description": "QuantumultX 规则与脚本订阅合集，涵盖运营商、出行、生活服务等279款应用，提供Cookie获取与任务自动化。",
+    "id": "chouchoui_boxjs_001",
+    "name": "chouchoui 脚本订阅",
+    "author": "chouchoui",
+    "icon": "https://avatars.githubusercontent.com/u/23919040?v=4",
+    "description": "chouchoui 的 QuanX 脚本订阅合集，包含丰富的自动化任务与功能增强脚本。",
     "category": "日常工具",
     "tags": [
-      "QuantumultX",
-      "规则订阅",
-      "Cookie获取",
+      "QuanX",
+      "脚本订阅",
       "自动化"
     ],
-    "boxjs_url": "http://nav.qixinpro.com/rules/QuantumultX/qixin.boxjs.json",
-    "update_time": "2026-05-20"
+    "boxjs_url": "https://raw.githubusercontent.com/chouchoui/QuanX/master/vei.boxjs.json",
+    "update_time": "2026-05-21"
   },
   {
-    "id": "pearvideo_001",
-    "name": "PearVideo 播放器增强",
-    "author": "@Jsforbaby",
-    "icon": "https://raw.githubusercontent.com/sE7En0908/Icon/refs/heads/master/1818.png",
-    "description": "PearVideo 视频播放增强工具，支持多播放器外跳（Infuse/nPlayer/VLC等）、URL编码、insav/妻友社区/porntube等多平台视频解析。",
-    "category": "影视音影",
-    "tags": [
-      "视频播放",
-      "外跳播放器",
-      "视频解析"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.boxjs.json",
-    "update_time": "2026-05-20"
-  },
-  {
-    "id": "nsringo_irongo_001",
-    "name": " iRingo: Apple 功能增强",
-    "author": "@VirgilClyne",
-    "icon": "https://avatars.githubusercontent.com/u/182791244?s=200&v=4",
-    "description": "解锁完整的 Apple功能和集成服务，包含WeatherKit、定位服务、地图、Siri、TV、News、TestFlight、Watch等模块的全面增强与自定义。",
+    "id": "dompling_boxjs_001",
+    "name": "DomplingYaYa 应用订阅",
+    "author": "dompling",
+    "icon": "https://avatars.githubusercontent.com/u/34851185?v=4",
+    "description": "dompling 的脚本订阅合集，提供多样化的自动化脚本与工具。",
     "category": "日常工具",
     "tags": [
-      "Apple",
-      "WeatherKit",
-      "地图增强",
-      "Siri",
-      "定位服务"
+      "脚本订阅",
+      "自动化",
+      "工具"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/NSRingo/BoxJs/main/iRingo.BoxJs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/dompling/Script/master/dompling.boxjs.json",
     "update_time": "2026-05-20"
   },
   {
@@ -321,33 +153,18 @@
     "update_time": "2026-05-20"
   },
   {
-    "id": "pengym_boxjs_001",
-    "name": "Peng-YM 应用订阅",
-    "author": "Peng-YM",
-    "icon": "https://avatars.githubusercontent.com/u/20913522?v=4",
-    "description": "Peng-YM 的 QuanX 任务订阅合集，包含丰富的自动化任务脚本。",
-    "category": "签到挂机",
+    "id": "dualsubs_legacy_001",
+    "name": "🍿️ DualSubs Legacy",
+    "author": "@DualSubs",
+    "icon": "https://avatars.githubusercontent.com/u/100578089?v=4",
+    "description": "DualSubs 旧版双语字幕生成工具，为HLS流媒体提供原生双语字幕体验。",
+    "category": "影视音影",
     "tags": [
-      "QuanX",
-      "任务订阅",
-      "自动化"
+      "双语字幕",
+      "旧版",
+      "HLS"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/box.js.json",
-    "update_time": "2026-05-20"
-  },
-  {
-    "id": "toulanboy_boxjs_001",
-    "name": "toulanboy 脚本订阅",
-    "author": "toulanboy",
-    "icon": "https://avatars.githubusercontent.com/u/31050853?v=4",
-    "description": "toulanboy 的脚本订阅合集，包含多种自动化签到与任务脚本。",
-    "category": "签到挂机",
-    "tags": [
-      "签到",
-      "自动化",
-      "脚本订阅"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/toulanboy/scripts/master/toulanboy.boxjs.json",
+    "boxjs_url": "https://github.com/DualSubs/BoxJs/raw/main/archive/DualSubs.Legacy.boxjs.json",
     "update_time": "2026-05-20"
   },
   {
@@ -366,63 +183,63 @@
     "update_time": "2026-05-20"
   },
   {
-    "id": "zzpiglet_boxjs_001",
-    "name": "zZPiglet 应用订阅",
-    "author": "zZPiglet",
-    "icon": "https://avatars.githubusercontent.com/u/47624764?v=4",
-    "description": "zZPiglet 的任务脚本订阅合集，包含多种平台自动化签到与任务管理。",
-    "category": "签到挂机",
-    "tags": [
-      "任务脚本",
-      "自动化",
-      "签到"
-    ],
-    "boxjs_url": "https://raw.githubusercontent.com/zZPiglet/Task/master/zZPiglet.boxjs.json",
-    "update_time": "2026-05-20"
-  },
-  {
-    "id": "dompling_boxjs_001",
-    "name": "DomplingYaYa 应用订阅",
-    "author": "dompling",
-    "icon": "https://avatars.githubusercontent.com/u/34851185?v=4",
-    "description": "dompling 的脚本订阅合集，提供多样化的自动化脚本与工具。",
+    "id": "fmz200_boxjs_001",
+    "name": "fmz200 wool_scripts BoxJS",
+    "author": "fmz200",
+    "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
+    "description": "致敬开源精神，净化网络环境。包含大量签到脚本、去广告规则、Cookie获取合集等综合工具箱。",
     "category": "日常工具",
     "tags": [
-      "脚本订阅",
-      "自动化",
-      "工具"
+      "签到",
+      "去广告",
+      "综合脚本"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/dompling/Script/master/dompling.boxjs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json",
     "update_time": "2026-05-20"
   },
   {
-    "id": "yuheng_boxjs_001",
-    "name": "宇恒脚本",
-    "author": "Yuheng0101",
-    "icon": "https://avatars.githubusercontent.com/u/60516090?v=4",
-    "description": "Yuheng0101 的 X 任务脚本订阅，包含多种自动化签到与任务脚本。",
-    "category": "签到挂机",
+    "id": "gxggxl_boxjs_001",
+    "name": "gxggxl 脚本订阅",
+    "author": "gxggxl",
+    "icon": "https://avatars.githubusercontent.com/u/52723289?v=4",
+    "description": "gxggxl 的 QuantumultX 脚本订阅合集，包含丰富的功能增强与自动化脚本。",
+    "category": "日常工具",
     "tags": [
-      "任务脚本",
-      "自动化",
-      "签到"
+      "QuantumultX",
+      "脚本订阅",
+      "自动化"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/boxjs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/gxggxl/QuantumultX/master/boxjs.json",
+    "update_time": "2026-05-21"
+  },
+  {
+    "id": "id77_boxjs_001",
+    "name": "id77 脚本订阅",
+    "author": "id77",
+    "icon": "https://avatars.githubusercontent.com/u/49089347?v=4",
+    "description": "id77 的 QuantumultX 脚本订阅合集，包含丰富的功能增强与自动化脚本。",
+    "category": "日常工具",
+    "tags": [
+      "QuantumultX",
+      "脚本订阅",
+      "自动化"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/id77/QuantumultX/master/box.json",
     "update_time": "2026-05-20"
   },
   {
-    "id": "dualsubs_legacy_001",
-    "name": "🍿️ DualSubs Legacy",
-    "author": "@DualSubs",
-    "icon": "https://avatars.githubusercontent.com/u/100578089?v=4",
-    "description": "DualSubs 旧版双语字幕生成工具，为HLS流媒体提供原生双语字幕体验。",
+    "id": "pearvideo_001",
+    "name": "PearVideo 播放器增强",
+    "author": "@Jsforbaby",
+    "icon": "https://raw.githubusercontent.com/sE7En0908/Icon/refs/heads/master/1818.png",
+    "description": "PearVideo 视频播放增强工具，支持多播放器外跳（Infuse/nPlayer/VLC等）、URL编码、insav/妻友社区/porntube等多平台视频解析。",
     "category": "影视音影",
     "tags": [
-      "双语字幕",
-      "旧版",
-      "HLS"
+      "视频播放",
+      "外跳播放器",
+      "视频解析"
     ],
-    "boxjs_url": "https://github.com/DualSubs/BoxJs/raw/main/archive/DualSubs.Legacy.boxjs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.boxjs.json",
     "update_time": "2026-05-20"
   },
   {
@@ -441,18 +258,83 @@
     "update_time": "2026-05-20"
   },
   {
-    "id": "id77_boxjs_001",
-    "name": "id77 脚本订阅",
-    "author": "id77",
-    "icon": "https://avatars.githubusercontent.com/u/49089347?v=4",
-    "description": "id77 的 QuantumultX 脚本订阅合集，包含丰富的功能增强与自动化脚本。",
+    "id": "lxk0301_boxjs_001",
+    "name": "lxk0301 京东脚本合集",
+    "author": "lxk0301",
+    "icon": "https://avatars.githubusercontent.com/u/61518958?v=4",
+    "description": "京东签到自动化脚本合集，包含京东水果、京东萌宠、京东种豆等任务，支持多账户管理与定时任务。",
+    "category": "签到挂机",
+    "tags": [
+      "京东",
+      "京东水果",
+      "京东萌宠",
+      "京东种豆",
+      "多账号"
+    ],
+    "boxjs_url": "https://qxnav.com/rules/QuantumultX/js/lxk0301.boxjs.json",
+    "update_time": "2026-05-21"
+  },
+  {
+    "id": "mcdasheng_boxjs_001",
+    "name": "mcdasheng 脚本订阅",
+    "author": "@mcdasheng",
+    "icon": "https://avatars.githubusercontent.com/u/92009557",
+    "description": "包含macat、漫漫游、哇哈体育、乐健体育、Bing搜索、酷我音乐、TestFlight自动加入、时间积木、起点读书、52appleid、AcFun、轻松签、ipInfo、GoFans、TopCashBack等脚本。",
     "category": "日常工具",
     "tags": [
-      "QuantumultX",
-      "脚本订阅",
+      "Bing搜索",
+      "签到",
+      "自动化",
+      "乐健体育",
+      "起点读书"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/mcdasheng.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "nobyda_001",
+    "name": "NobyDa 京东多合一",
+    "author": "NobyDa",
+    "icon": "https://avatars2.githubusercontent.com/u/53217160",
+    "description": "久经考验的京东多合一自动化运维工具，支持京豆、钢镚、各种活动的一键自动化打卡收集与持久化报表查看。",
+    "category": "签到挂机",
+    "tags": [
+      "京豆",
+      "多合一",
+      "定时脚本"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json",
+    "update_time": "2026-05-19"
+  },
+  {
+    "id": "passerbyb_boxjs_001",
+    "name": "passerby-b 京东到家",
+    "author": "passerby-b",
+    "icon": "https://avatars.githubusercontent.com/u/48897912?v=4",
+    "description": "京东到家签到与自动化任务脚本，支持多账户管理与定时执行。",
+    "category": "签到挂机",
+    "tags": [
+      "京东到家",
+      "签到",
+      "自动化",
+      "多账号"
+    ],
+    "boxjs_url": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+    "update_time": "2026-05-21"
+  },
+  {
+    "id": "pengym_boxjs_001",
+    "name": "Peng-YM 应用订阅",
+    "author": "Peng-YM",
+    "icon": "https://avatars.githubusercontent.com/u/20913522?v=4",
+    "description": "Peng-YM 的 QuanX 任务订阅合集，包含丰富的自动化任务脚本。",
+    "category": "签到挂机",
+    "tags": [
+      "QuanX",
+      "任务订阅",
       "自动化"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/id77/QuantumultX/master/box.json",
+    "boxjs_url": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/box.js.json",
     "update_time": "2026-05-20"
   },
   {
@@ -468,6 +350,131 @@
       "脚本订阅"
     ],
     "boxjs_url": "https://gist.githubusercontent.com/Sliverkiss/18bd01be356360a8065a21ea71685ad3/raw/sliverkiss.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "songyangzz_boxjs_001",
+    "name": "songyangzz 签到脚本",
+    "author": "songyangzz",
+    "icon": "https://avatars.githubusercontent.com/u/82846530?v=4",
+    "description": "包含饿了么签到、tf监控等自动化任务脚本合集。",
+    "category": "签到挂机",
+    "tags": [
+      "饿了么",
+      "签到",
+      "tf监控",
+      "自动化"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/songyangzz/QuantumultX/master/syzzzf.box.json",
+    "update_time": "2026-05-21"
+  },
+  {
+    "id": "sunert_alt_boxjs_001",
+    "name": "Sunert 脚本订阅（备用）",
+    "author": "Sunert",
+    "icon": "https://avatars.githubusercontent.com/u/51620532?v=4",
+    "description": "Sunert 的另一订阅地址（Script而非Scripts），包含新浪微博、中青看点等签到脚本。",
+    "category": "签到挂机",
+    "tags": [
+      "微博",
+      "中青看点",
+      "签到",
+      "备用"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/Sunert/Script/master/Task/sunert.boxjs.json",
+    "update_time": "2026-05-21"
+  },
+  {
+    "id": "tom_boxjs_001",
+    "name": "Tom 脚本订阅",
+    "author": "Tom",
+    "icon": "https://avatars.githubusercontent.com/u/68151559?v=4",
+    "description": "Tom 的脚本订阅合集，包含多种自动化任务与功能脚本。",
+    "category": "日常工具",
+    "tags": [
+      "脚本订阅",
+      "自动化",
+      "任务"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/xl2101200/-/main/tom.box.json",
+    "update_time": "2026-05-21"
+  },
+  {
+    "id": "toulanboy_boxjs_001",
+    "name": "toulanboy 脚本订阅",
+    "author": "toulanboy",
+    "icon": "https://avatars.githubusercontent.com/u/31050853?v=4",
+    "description": "toulanboy 的脚本订阅合集，包含多种自动化签到与任务脚本。",
+    "category": "签到挂机",
+    "tags": [
+      "签到",
+      "自动化",
+      "脚本订阅"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/toulanboy/scripts/master/toulanboy.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "vinewx_boxjs_001",
+    "name": "vinewx 脚本订阅",
+    "author": "vinewx",
+    "icon": "https://avatars.githubusercontent.com/u/38632815?v=4",
+    "description": "包含优麦医生、无忧行等平台签到与自动化脚本合集。",
+    "category": "签到挂机",
+    "tags": [
+      "优麦医生",
+      "无忧行",
+      "签到",
+      "自动化"
+    ],
+    "boxjs_url": "https://ooxx.be/js/box.json",
+    "update_time": "2026-05-21"
+  },
+  {
+    "id": "nsringo_irongo_001",
+    "name": " iRingo: Apple 功能增强",
+    "author": "@VirgilClyne",
+    "icon": "https://avatars.githubusercontent.com/u/182791244?s=200&v=4",
+    "description": "解锁完整的 Apple功能和集成服务，包含WeatherKit、定位服务、地图、Siri、TV、News、TestFlight、Watch等模块的全面增强与自定义。",
+    "category": "日常工具",
+    "tags": [
+      "Apple",
+      "WeatherKit",
+      "地图增强",
+      "Siri",
+      "定位服务"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/NSRingo/BoxJs/main/iRingo.BoxJs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "virgilclyne_fries_001",
+    "name": "VirgilClyne GetSomeFries",
+    "author": "VirgilClyne",
+    "icon": "https://avatars.githubusercontent.com/u/51137922?v=4",
+    "description": "GetSomeFries 脚本订阅合集，包含丰富的功能增强与自动化脚本。",
+    "category": "日常工具",
+    "tags": [
+      "脚本订阅",
+      "功能增强",
+      "自动化"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/refs/heads/main/box/fries.boxjs.json",
+    "update_time": "2026-05-21"
+  },
+  {
+    "id": "xiaomao_boxjs_001",
+    "name": "XiaoMao 应用订阅",
+    "author": "xiaomaoJT",
+    "icon": "https://avatars.githubusercontent.com/u/89526684?v=4",
+    "description": "XiaoMao 的 QxScript 脚本订阅合集，包含丰富的重写与功能增强脚本。",
+    "category": "日常工具",
+    "tags": [
+      "QuantumultX",
+      "重写脚本",
+      "功能增强"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/XiaoMao.json",
     "update_time": "2026-05-20"
   },
   {
@@ -501,35 +508,95 @@
     "update_time": "2026-05-20"
   },
   {
-    "id": "xiaomao_boxjs_001",
-    "name": "XiaoMao 应用订阅",
-    "author": "xiaomaoJT",
-    "icon": "https://avatars.githubusercontent.com/u/89526684?v=4",
-    "description": "XiaoMao 的 QxScript 脚本订阅合集，包含丰富的重写与功能增强脚本。",
-    "category": "日常工具",
+    "id": "yuheng_boxjs_001",
+    "name": "宇恒脚本",
+    "author": "Yuheng0101",
+    "icon": "https://avatars.githubusercontent.com/u/60516090?v=4",
+    "description": "Yuheng0101 的 X 任务脚本订阅，包含多种自动化签到与任务脚本。",
+    "category": "签到挂机",
     "tags": [
-      "QuantumultX",
-      "重写脚本",
-      "功能增强"
+      "任务脚本",
+      "自动化",
+      "签到"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/XiaoMao.json",
+    "boxjs_url": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/boxjs.json",
     "update_time": "2026-05-20"
   },
   {
-    "id": "mcdasheng_boxjs_001",
-    "name": "mcdasheng 脚本订阅",
-    "author": "@mcdasheng",
-    "icon": "https://avatars.githubusercontent.com/u/92009557",
-    "description": "包含macat、漫漫游、哇哈体育、乐健体育、Bing搜索、酷我音乐、TestFlight自动加入、时间积木、起点读书、52appleid、AcFun、轻松签、ipInfo、GoFans、TopCashBack等脚本。",
-    "category": "日常工具",
+    "id": "zhiyin_boxjs_001",
+    "name": "ZhiYi-N 笑谱脚本",
+    "author": "ZhiYi-N",
+    "icon": "https://avatars.githubusercontent.com/u/82964754?v=4",
+    "description": "笑谱（App薅羊毛）脚本订阅，提供多种自动化签到与任务管理功能。",
+    "category": "签到挂机",
     "tags": [
-      "Bing搜索",
+      "笑谱",
+      "App薅羊毛",
+      "签到",
+      "自动化"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/ZhiYi-N.boxjs.json",
+    "update_time": "2026-05-21"
+  },
+  {
+    "id": "ziye_boxjs_001",
+    "name": "ZIYE 脚本订阅",
+    "author": "ZIYE",
+    "icon": "https://avatars.githubusercontent.com/u/53999763?v=4",
+    "description": "ZIYE 的 JavaScript 任务脚本合集，涵盖多种平台签到与自动化脚本。",
+    "category": "签到挂机",
+    "tags": [
       "签到",
       "自动化",
-      "乐健体育",
-      "起点读书"
+      "任务脚本"
     ],
-    "boxjs_url": "https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/mcdasheng.boxjs.json",
+    "boxjs_url": "https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/ziye.boxjs.json",
+    "update_time": "2026-05-21"
+  },
+  {
+    "id": "ztxtop_boxjs_001",
+    "name": "ztxtop 脚本订阅",
+    "author": "ztxtop",
+    "icon": "https://avatars.githubusercontent.com/u/48332913?v=4",
+    "description": "ztxtop 的脚本订阅合集，包含多种自动化任务与功能脚本。",
+    "category": "日常工具",
+    "tags": [
+      "脚本订阅",
+      "自动化",
+      "任务"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/ztxtop/x/main/ztxtop.boxjs.json",
+    "update_time": "2026-05-21"
+  },
+  {
+    "id": "zzpiglet_boxjs_001",
+    "name": "zZPiglet 应用订阅",
+    "author": "zZPiglet",
+    "icon": "https://avatars.githubusercontent.com/u/47624764?v=4",
+    "description": "zZPiglet 的任务脚本订阅合集，包含多种平台自动化签到与任务管理。",
+    "category": "签到挂机",
+    "tags": [
+      "任务脚本",
+      "自动化",
+      "签到"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/zZPiglet/Task/master/zZPiglet.boxjs.json",
+    "update_time": "2026-05-20"
+  },
+  {
+    "id": "qixin_001",
+    "name": "奇心应用订阅合集",
+    "author": "陌路",
+    "icon": "http://qxnav.com/images/molu.png",
+    "description": "QuantumultX 规则与脚本订阅合集，涵盖运营商、出行、生活服务等279款应用，提供Cookie获取与任务自动化。",
+    "category": "日常工具",
+    "tags": [
+      "QuantumultX",
+      "规则订阅",
+      "Cookie获取",
+      "自动化"
+    ],
+    "boxjs_url": "http://nav.qixinpro.com/rules/QuantumultX/qixin.boxjs.json",
     "update_time": "2026-05-20"
   }
 ]
