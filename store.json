@@ -598,5 +598,21 @@
     ],
     "boxjs_url": "http://nav.qixinpro.com/rules/QuantumultX/qixin.boxjs.json",
     "update_time": "2026-05-20"
+  },
+  {
+    "id": "inaisi_x_tags_001",
+    "name": "😀 X网页版自定义标签",
+    "author": "@inaisi",
+    "icon": "https://t.me/inaisi/649",
+    "description": "现在可以通过BoxJS选择自己喜欢的内容了。步骤：1、添加 https://t.me/inaisi/649 的配置；2、订阅主包的BoxJS配置：https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json；3、点击X的标签配置，勾选自己喜欢的，点击保存；4、打开X网页版即可生效。",
+    "category": "日常工具",
+    "tags": [
+      "X",
+      "网页版",
+      "自定义标签",
+      "fmz200"
+    ],
+    "boxjs_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json",
+    "update_time": "2026-06-03"
   }
 ]
