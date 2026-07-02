@@ -1,5 +1,26 @@
 [
   {
+    "id": "boxjs_core_001",
+    "name": "BoxJs 本体模块",
+    "author": "Chavy",
+    "icon": "https://docs.boxjs.app/~gitbook/image?url=https%3A%2F%2F1532234502-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-MDxD9HYU2CoF7Jg2BEp%252Favatar-1597212951484.png%3Fgeneration%3D1597212951933642%26alt%3Dmedia&width=48&height=48&sign=5c3c97f7&sv=2",
+    "description": "BoxJs 本体模块安装入口，点击后会跳转到对应代理软件的安装页，未安装时会先引导安装模块。",
+    "category": "系统优化",
+    "tags": [
+      "BoxJs",
+      "本体模块",
+      "一键安装",
+      "Rewrite"
+    ],
+    "boxjs_url": "https://api.boxjs.app/surge-install",
+    "surge_url": "https://api.boxjs.app/surge-install",
+    "qx_url": "https://api.boxjs.app/quanx-install",
+    "loon_url": "https://api.boxjs.app/loon-install",
+    "shadowrocket_url": "https://api.boxjs.app/shadowrocket-install",
+    "stash_url": "https://api.boxjs.app/stash-install",
+    "update_time": "2026-07-02"
+  },
+  {
     "id": "biliuniverse_bilibili_001",
     "name": "BiliUniverse: BiliBili 功能增强",
     "author": "@BiliUniverse",
