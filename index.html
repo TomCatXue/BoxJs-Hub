@@ -184,35 +184,6 @@
 
                                     <div v-if="activeDropdown === mod.id"
                                         class="absolute bottom-full right-0 mb-2 w-48 bg-white border border-gray-200 rounded-xl shadow-xl py-1.5 z-30">
-                                        <button v-if="mod.id === 'boxjs_core_001'" @click="importToApp('surge', mod)"
-                                            class="w-full text-left px-3 py-2 text-xs hover:bg-amber-50 flex items-center space-x-2 text-gray-700 font-medium">
-                                            <i class="fa-solid fa-box text-amber-500 w-4 text-center"></i>
-                                            <span>Surge 安装</span>
-                                        </button>
-                                        <button v-if="mod.id === 'boxjs_core_001'" @click="importToApp('qx', mod)"
-                                            class="w-full text-left px-3 py-2 text-xs hover:bg-blue-50 flex items-center space-x-2 text-gray-700">
-                                            <i class="fa-solid fa-cubes text-blue-500 w-4 text-center"></i>
-                                            <span>Quantumult X 安装</span>
-                                        </button>
-                                        <button v-if="mod.id === 'boxjs_core_001'" @click="importToApp('loon', mod)"
-                                            class="w-full text-left px-3 py-2 text-xs hover:bg-yellow-50 flex items-center space-x-2 text-gray-700">
-                                            <i class="fa-solid fa-compass text-yellow-500 w-4 text-center"></i>
-                                            <span>Loon 安装</span>
-                                        </button>
-                                        <button v-if="mod.id === 'boxjs_core_001'"
-                                            @click="importToApp('shadowrocket', mod)"
-                                            class="w-full text-left px-3 py-2 text-xs hover:bg-purple-50 flex items-center space-x-2 text-gray-700">
-                                            <i class="fa-solid fa-rocket text-purple-500 w-4 text-center"></i>
-                                            <span>Shadowrocket 安装</span>
-                                        </button>
-                                        <button v-if="mod.id === 'boxjs_core_001'" @click="importToApp('stash', mod)"
-                                            class="w-full text-left px-3 py-2 text-xs hover:bg-emerald-50 flex items-center space-x-2 text-gray-700">
-                                            <i class="fa-solid fa-layer-group text-emerald-500 w-4 text-center"></i>
-                                            <span>Stash 安装</span>
-                                        </button>
-
-                                        <div v-if="mod.id === 'boxjs_core_001'" class="border-b border-gray-100 my-1">
-                                        </div>
                                         <button v-if="mod.id !== 'boxjs_core_001'" @click="importToApp('relay', mod)"
                                             class="w-full text-left px-3 py-2 text-xs hover:bg-amber-50 flex items-center space-x-2 text-gray-700 font-medium">
                                             <i class="fa-solid fa-box text-amber-500 w-4 text-center"></i>
@@ -222,6 +193,24 @@
                                             class="w-full text-left px-3 py-2 text-xs hover:bg-orange-50 flex items-center space-x-2 text-gray-700">
                                             <i class="fa-solid fa-circle-dot text-orange-500 w-4 text-center"></i>
                                             <span>网页端 BoxJs 控制台</span>
+                                        </button>
+
+                                        <div v-if="mod.id !== 'boxjs_core_001'" class="border-b border-gray-100 my-1">
+                                        </div>
+                                        <p v-if="mod.id !== 'boxjs_core_001'"
+                                            class="px-3 py-1 text-[10px] uppercase tracking-wide text-gray-400">代理软件导入
+                                        </p>
+
+                                        <button v-for="platform in proxyPlatforms" :key="`${mod.id}-${platform}`"
+                                            @click="importToApp(platform, mod)"
+                                            class="w-full text-left px-3 py-2 text-xs hover:bg-slate-50 flex items-center space-x-2 text-gray-700">
+                                            <span
+                                                class="w-4 h-4 rounded overflow-hidden bg-gray-100 border border-gray-200 shrink-0">
+                                                <img :src="platformMeta[platform].icon"
+                                                    :alt="platformMeta[platform].name"
+                                                    class="w-full h-full object-cover" @error="handlePlatformIconError">
+                                            </span>
+                                            <span>{{ getProxyActionLabel(platform, mod) }}</span>
                                         </button>
                                     </div>
                                 </div>
@@ -307,6 +296,29 @@
                 const modules = ref([]);
                 const activeDropdown = ref(null);
                 const categoryDrawerOpen = ref(false);
+                const proxyPlatforms = ['surge', 'qx', 'loon', 'shadowrocket', 'stash'];
+                const platformMeta = {
+                    surge: {
+                        name: 'Surge',
+                        icon: 'https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Surge.png'
+                    },
+                    qx: {
+                        name: 'Quantumult X',
+                        icon: 'https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/QuantumultX.png'
+                    },
+                    loon: {
+                        name: 'Loon',
+                        icon: 'https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Loon.png'
+                    },
+                    shadowrocket: {
+                        name: 'Shadowrocket',
+                        icon: 'https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Shadowrocket.png'
+                    },
+                    stash: {
+                        name: 'Stash',
+                        icon: 'https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Stash.png'
+                    }
+                };
 
                 const categories = ['签到挂机', '影视音影', '日常工具', '科学上网', '系统优化'];
 
@@ -364,6 +376,16 @@
 
                 const handleIconError = (e) => {
                     e.target.src = "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=120&auto=format&fit=crop&q=60";
+                };
+
+                const handlePlatformIconError = (e) => {
+                    e.target.onerror = null;
+                    e.target.src = 'https://api.iconify.design/mdi:application-cog.svg?color=%239ca3af';
+                };
+
+                const getProxyActionLabel = (platform, mod) => {
+                    const appName = platformMeta[platform]?.name || '代理软件';
+                    return `${appName} ${mod.id === 'boxjs_core_001' ? '安装' : '导入'}`;
                 };
 
                 const filteredModules = computed(() => {
@@ -442,9 +464,12 @@
                         case 'shadowrocket':
                             scheme = `shadowrocket:///addmodule?url=${encodeURIComponent(targetUrl)}`;
                             break;
+                        case 'stash':
+                            scheme = `stash://install-override?url=${encodeURIComponent(targetUrl)}`;
+                            break;
                     }
 
-                    if (['relay', 'qx', 'surge', 'loon', 'shadowrocket'].includes(platform)) {
+                    if (['relay', 'qx', 'surge', 'loon', 'shadowrocket', 'stash'].includes(platform)) {
                         window.location.href = scheme;
                         return;
                     }
@@ -465,10 +490,14 @@
                     loading,
                     categoryDrawerOpen,
                     activeDropdown,
+                    proxyPlatforms,
+                    platformMeta,
                     toggleDropdown,
                     selectCategory,
                     getCategoryIcon,
                     handleIconError,
+                    handlePlatformIconError,
+                    getProxyActionLabel,
                     copySubscription,
                     copyCurrentEnvUrl,
                     importToApp
