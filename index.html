@@ -16,6 +16,27 @@
         [v-cloak] {
             display: none;
         }
+
+        .category-drawer-enter-active,
+        .category-drawer-leave-active {
+            transition: transform 0.25s ease, opacity 0.25s ease;
+        }
+
+        .category-drawer-enter-from,
+        .category-drawer-leave-to {
+            transform: translateX(-100%);
+            opacity: 0.85;
+        }
+
+        .category-overlay-enter-active,
+        .category-overlay-leave-active {
+            transition: opacity 0.2s ease;
+        }
+
+        .category-overlay-enter-from,
+        .category-overlay-leave-to {
+            opacity: 0;
+        }
     </style>
 </head>
 
@@ -82,43 +103,8 @@
                 <p class="text-gray-400 text-sm">正在加载模块商店数据...</p>
             </div>
 
-            <div v-else class="flex flex-col lg:flex-row gap-8">
-
-                <aside class="w-full lg:w-64 shrink-0 space-y-2">
-                    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-wider px-3 mb-2">模块分类</h3>
-                    <button @click="currentCategory = '全部'"
-                        :class="currentCategory === '全部' ? 'bg-blue-50 text-blue-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'"
-                        class="w-full text-left px-4 py-2.5 rounded-xl transition flex items-center space-x-3 text-sm">
-                        <i class="fa-solid fa-border-all w-5 text-center"></i>
-                        <span>全部模块</span>
-                        <span
-                            class="ml-auto bg-gray-200/60 text-gray-500 text-xs px-2 py-0.5 rounded-full font-normal">{{
-                            modules.length }}</span>
-                    </button>
-
-                    <button v-for="cat in categories" :key="cat" @click="currentCategory = cat"
-                        :class="{'bg-blue-50 text-blue-600 font-semibold': currentCategory === cat, 'text-gray-600 hover:bg-gray-100': currentCategory !== cat}"
-                        class="w-full text-left px-4 py-2.5 rounded-xl transition flex items-center space-x-3 text-sm">
-                        <i :class="getCategoryIcon(cat)" class="w-5 text-center text-gray-400"></i>
-                        <span>{{ cat }}</span>
-                        <span class="ml-auto bg-gray-200/60 text-gray-500 text-xs px-2 py-0.5 rounded-full font-normal">
-                            {{ modules.filter(m => m.category === cat).length }}
-                        </span>
-                    </button>
-
-                    <div
-                        class="md:hidden mt-6 p-4 bg-sky-50 border border-sky-100 rounded-3xl space-y-2 shadow-sm shadow-sky-100/60">
-                        <label class="text-xs font-bold text-sky-700 block">当前订阅环境</label>
-                        <button type="button" @click="copyCurrentEnvUrl" title="点击复制订阅环境地址"
-                            class="w-full text-left bg-white hover:bg-sky-50 border border-sky-100 rounded-2xl px-3 py-2.5 text-sky-600 cursor-pointer font-semibold shadow-sm transition-all duration-200 flex items-center gap-2 group">
-                            <i
-                                class="fa-regular fa-copy text-sky-400 group-hover:text-sky-500 transition-colors shrink-0"></i>
-                            <span class="truncate" :title="userBoxJsUrl">{{ userBoxJsUrl }}</span>
-                        </button>
-                    </div>
-                </aside>
-
-                <section class="flex-1">
+            <div v-else>
+                <section>
                     <div class="flex items-center justify-between mb-6">
                         <div class="text-sm text-gray-500">
                             为您找到 <span class="font-bold text-gray-800">{{ filteredModules.length }}</span> 个符合条件的模块
@@ -231,9 +217,64 @@
                         </div>
                     </div>
                 </section>
-
             </div>
         </main>
+
+        <button @click="categoryDrawerOpen = true"
+            class="fixed bottom-8 left-5 sm:left-8 z-40 w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white shadow-lg shadow-blue-200/80 transition-all duration-200 flex items-center justify-center"
+            title="打开模块分类">
+            <i class="fa-solid fa-layer-group text-lg"></i>
+        </button>
+
+        <transition name="category-overlay">
+            <div v-if="categoryDrawerOpen" @click="categoryDrawerOpen = false"
+                class="fixed inset-0 bg-gray-900/45 backdrop-blur-[1px] z-40"></div>
+        </transition>
+
+        <transition name="category-drawer">
+            <aside v-if="categoryDrawerOpen"
+                class="fixed left-0 top-0 h-full w-[84vw] max-w-sm bg-white border-r border-gray-200 z-50 p-5 overflow-y-auto">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-sm font-bold text-gray-700 tracking-wide">模块分类</h3>
+                    <button @click="categoryDrawerOpen = false"
+                        class="w-8 h-8 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors" title="关闭分类面板">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+
+                <div class="space-y-2">
+                    <button @click="selectCategory('全部')"
+                        :class="currentCategory === '全部' ? 'bg-blue-50 text-blue-600 font-semibold border-blue-100' : 'text-gray-600 hover:bg-gray-100 border-transparent'"
+                        class="w-full text-left px-4 py-2.5 rounded-xl transition flex items-center space-x-3 text-sm border">
+                        <i class="fa-solid fa-border-all w-5 text-center"></i>
+                        <span>全部模块</span>
+                        <span class="ml-auto bg-gray-200/60 text-gray-500 text-xs px-2 py-0.5 rounded-full font-normal">
+                            {{ modules.length }}
+                        </span>
+                    </button>
+
+                    <button v-for="cat in categories" :key="cat" @click="selectCategory(cat)"
+                        :class="{'bg-blue-50 text-blue-600 font-semibold border-blue-100': currentCategory === cat, 'text-gray-600 hover:bg-gray-100 border-transparent': currentCategory !== cat}"
+                        class="w-full text-left px-4 py-2.5 rounded-xl transition flex items-center space-x-3 text-sm border">
+                        <i :class="getCategoryIcon(cat)" class="w-5 text-center text-gray-400"></i>
+                        <span>{{ cat }}</span>
+                        <span class="ml-auto bg-gray-200/60 text-gray-500 text-xs px-2 py-0.5 rounded-full font-normal">
+                            {{ modules.filter(m => m.category === cat).length }}
+                        </span>
+                    </button>
+                </div>
+
+                <div class="mt-6 p-4 bg-sky-50 border border-sky-100 rounded-3xl space-y-2 shadow-sm shadow-sky-100/60">
+                    <label class="text-xs font-bold text-sky-700 block">当前订阅环境</label>
+                    <button type="button" @click="copyCurrentEnvUrl" title="点击复制订阅环境地址"
+                        class="w-full text-left bg-white hover:bg-sky-50 border border-sky-100 rounded-2xl px-3 py-2.5 text-sky-600 cursor-pointer font-semibold shadow-sm transition-all duration-200 flex items-center gap-2 group">
+                        <i
+                            class="fa-regular fa-copy text-sky-400 group-hover:text-sky-500 transition-colors shrink-0"></i>
+                        <span class="truncate" :title="userBoxJsUrl">{{ userBoxJsUrl }}</span>
+                    </button>
+                </div>
+            </aside>
+        </transition>
 
         <div v-if="toast.show"
             class="fixed bottom-8 left-1/2 -translate-x-1/2 bg-gray-900/95 text-white px-5 py-3 rounded-2xl shadow-xl flex items-center space-x-3 z-50 text-sm max-w-sm">
@@ -253,6 +294,7 @@
                 const loading = ref(true);
                 const modules = ref([]);
                 const activeDropdown = ref(null);
+                const categoryDrawerOpen = ref(false);
 
                 const categories = ['签到挂机', '影视音影', '日常工具', '科学上网', '系统优化'];
 
@@ -290,6 +332,11 @@
 
                 const toggleDropdown = (id) => {
                     activeDropdown.value = activeDropdown.value === id ? null : id;
+                };
+
+                const selectCategory = (category) => {
+                    currentCategory.value = category;
+                    categoryDrawerOpen.value = false;
                 };
 
                 const getCategoryIcon = (category) => {
@@ -404,8 +451,10 @@
                     filteredModules,
                     toast,
                     loading,
+                    categoryDrawerOpen,
                     activeDropdown,
                     toggleDropdown,
+                    selectCategory,
                     getCategoryIcon,
                     handleIconError,
                     copySubscription,
