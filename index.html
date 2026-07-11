@@ -37,6 +37,18 @@
         .category-overlay-leave-to {
             opacity: 0;
         }
+
+        .module-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 380px) {
+            .module-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 
@@ -120,7 +132,7 @@
                         <p class="text-sm text-gray-400 mt-1">换个关键词或者切换分类试试吧</p>
                     </div>
 
-                    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                    <div class="module-grid">
                         <div v-for="mod in filteredModules" :key="mod.id"
                             class="bg-white border border-gray-200 rounded-2xl p-5 hover:shadow-xl hover:border-blue-200 transition-all duration-300 flex flex-col group relative">
 
