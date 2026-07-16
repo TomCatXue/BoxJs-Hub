@@ -101,6 +101,23 @@
     "update_time": "2026-05-20"
   },
   {
+    "id": "mcdasheng_boxjs_compat_001",
+    "name": "mcdasheng 脚本订阅(兼容版)",
+    "author": "@mcdasheng",
+    "icon": "https://avatars.githubusercontent.com/u/92009557",
+    "description": "包含macat、漫漫游、哇哈体育、乐健体育、Bing搜索、酷我音乐、TestFlight自动加入、时间积木、起点读书、52appleid、AcFun、轻松签、ipInfo、GoFans、TopCashBack等脚本。",
+    "category": "日常工具",
+    "tags": [
+      "Bing搜索",
+      "签到",
+      "自动化",
+      "乐健体育",
+      "起点读书"
+    ],
+    "boxjs_url": "./mcdasheng.corrected.json",
+    "update_time": "2026-07-16"
+  },
+  {
     "id": "nsringo_irongo_001",
     "name": " iRingo: Apple 功能增强",
     "author": "@VirgilClyne",
